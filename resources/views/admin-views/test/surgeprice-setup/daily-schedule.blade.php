@@ -5,8 +5,8 @@
 @push('css_or_js')
 <meta name="csrf-token" content="{{ csrf_token() }}">
 
-<script type="text/javascript" src="{{asset('public/assets/admin/js/moment.min.js')}}"></script>
-<script type="text/javascript" src="{{asset('public/assets/admin/js/daterangepicker.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('assets/admin/js/moment.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('assets/admin/js/daterangepicker.min.js')}}"></script>
 @endpush
 
 @section('content')
@@ -147,7 +147,7 @@
                                             <div class="time-range-wrapper">
                                                 <label class="form-label">{{ translate('Time Range') }}</label>
                                                 <div class="position-relative cursor-pointer">
-                                                    <i class="tio-time icon-absolute-on-right"></i>  
+                                                    <i class="tio-time icon-absolute-on-right"></i>
                                                      <input type="text" class="form-control h-45 position-relative bg-transparent time-range-picker" name="time_range[]" placeholder="{{ translate('messages.Select_Time') }}">
                                                 </div>
                                             </div>
@@ -168,7 +168,7 @@
                                              <div class="time-range-wrapper">
                                                  <label class="form-label">{{ translate('Time Range') }}</label>
                                                  <div class="position-relative cursor-pointer">
-                                                     <i class="tio-time icon-absolute-on-right"></i>  
+                                                     <i class="tio-time icon-absolute-on-right"></i>
                                                       <input type="text" class="form-control h-45 position-relative bg-transparent time-range-picker" name="time_range[]" placeholder="{{ translate('messages.Select_Time') }}">
                                                  </div>
                                              </div>
@@ -318,7 +318,7 @@
             <button type="submit" class="btn btn--primary min-w-120px">Submit</button>
         </div>
 
-       
+
     </form>
 
 
@@ -443,7 +443,7 @@
                         <span class="fs-12 text-title opacity-50 text-uppercase pe-30 me-3">Time</span>
                     </div>
                     <div class="selected-list-inner d-flex flex-column gap-3">
-                        
+
                     </div>
                 </div>
             </div>
@@ -470,12 +470,12 @@
         </button>
       </div>
       <div class="modal-body">
-        <div class="modal-body-inner">            
+        <div class="modal-body-inner">
             <div class="bg-light rounded p-3">
                <div class="time-range-wrapper">
                     <label class="form-label">{{ translate('Change Time') }}</label>
                     <div class="position-relative cursor-pointer">
-                        <i class="tio-time icon-absolute-on-right"></i>  
+                        <i class="tio-time icon-absolute-on-right"></i>
                             <input type="text" class="form-control h-45 position-relative bg-transparent time-range-picker" name="time_range[]" placeholder="{{ translate('messages.Select_Time') }}">
                     </div>
                 </div>
@@ -527,7 +527,7 @@
         });
 
         $(function() {
-            //Schedule Modal Date Select 
+            //Schedule Modal Date Select
             $(document).ready(function () {
                 let selectedDateRange = "";
 
@@ -567,10 +567,10 @@
                 function updateScheduleVisibility() {
                     const radios = $('.shedule-checkbox-inner .form-check-input');
                     const items = $('.change-shedule-wrapper .shedule_item');
-                    items.hide(); 
+                    items.hide();
                     radios.each(function(index) {
                         if ($(this).is(':checked')) {
-                            items.eq(index).show(); 
+                            items.eq(index).show();
                         }
                     });
                 }
@@ -626,7 +626,7 @@
                 $(this).closest('.selected-list-item').remove();
             });
 
-            //Calender & Time Range Added            
+            //Calender & Time Range Added
             let display = document.querySelector(".display");
             let days = document.querySelector(".days");
             let previous = document.querySelector(".left");
@@ -706,7 +706,7 @@
                     </span>
                     <div class="d-flex align-items-center gap-3">
                         <div class="position-relative cursor-pointer">
-                            <i class="tio-time icon-absolute-on-right fs-12"></i>  
+                            <i class="tio-time icon-absolute-on-right fs-12"></i>
                             <input type="text" class="form-control position-relative fs-10 h-32px bg-white time-range-picker" name="time_range[]" placeholder="Select Time">
                         </div>
                         <button type="button" class="removeDay text-danger btn p-0"><i class="tio-clear-circle-outlined fs-20"></i></button>
@@ -775,7 +775,7 @@
         //init daterange picker
         $(function() {
             $('input[name="dates-top"]').daterangepicker({
-                autoUpdateInput: false, // 
+                autoUpdateInput: false, //
                 minDate: new Date(),
                 startDate: moment().startOf('hour'),
                 endDate: moment().startOf('hour').add(10, 'day'),

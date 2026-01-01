@@ -10,7 +10,7 @@
         <div class="page-header">
             <h1 class="page-header-title">
                 <span class="page-header-icon">
-                    <img src="{{ asset('public/assets/admin/img/store.png') }}" class="w--26" alt="">
+                    <img src="{{ asset('assets/admin/img/store.png') }}" class="w--26" alt="">
                 </span>
                 <span>
                     {{ translate('messages.add_new_store') }}
@@ -133,8 +133,8 @@
                                         <label class="text-center position-relative">
                                             <img class="img--110 min-height-170px min-width-170px onerror-image image--border"
                                                 id="viewer"
-                                                data-onerror-image="{{ asset('public/assets/admin/img/upload-img.png') }}"
-                                                src="{{ asset('public/assets/admin/img/upload-img.png') }}"
+                                                data-onerror-image="{{ asset('assets/admin/img/upload-img.png') }}"
+                                                src="{{ asset('assets/admin/img/upload-img.png') }}"
                                                 alt="logo image" />
                                             <div class="icon-file-group">
                                                 <div class="icon-file">
@@ -159,8 +159,8 @@
                                         <label class="text-center position-relative">
                                             <img class="img--vertical min-height-170px min-width-170px onerror-image image--border"
                                                 id="coverImageViewer"
-                                                data-onerror-image="{{ asset('public/assets/admin/img/upload-img.png') }}"
-                                                src="{{ asset('public/assets/admin/img/upload-img.png') }}"
+                                                data-onerror-image="{{ asset('assets/admin/img/upload-img.png') }}"
+                                                src="{{ asset('assets/admin/img/upload-img.png') }}"
                                                 alt="Fav icon" />
                                             <div class="icon-file-group">
                                                 <div class="icon-file">
@@ -187,7 +187,7 @@
                         <div class="card-header">
                             <h4 class="card-title m-0 d-flex align-items-center">
                                 <img class="mr-2 align-self-start w--20"
-                                    src="{{ asset('public/assets/admin/img/resturant.png') }}" alt="instructions">
+                                    src="{{ asset('assets/admin/img/resturant.png') }}" alt="instructions">
                                 <span>{{ translate('store_information') }}</span>
                             </h4>
                         </div>
@@ -257,7 +257,7 @@
                                             for="choice_zones">{{ translate('messages.zone') }}<span
                                                 class="form-label-secondary" data-toggle="tooltip" data-placement="right"
                                                 data-original-title="{{ translate('messages.select_zone_for_map') }}"><img
-                                                    src="{{ asset('/public/assets/admin/img/info-circle.svg') }}"
+                                                    src="{{ asset('/assets/admin/img/info-circle.svg') }}"
                                                     alt="{{ translate('messages.select_zone_for_map') }}"></span>
                                             <span class="form-label-secondary text-danger" data-toggle="tooltip"
                                                 data-placement="right"
@@ -285,7 +285,7 @@
                                             <span class="form-label-secondary" data-toggle="tooltip"
                                                 data-placement="right"
                                                 data-original-title="{{ translate('messages.store_lat_lng_warning') }}">
-                                                <img src="{{ asset('/public/assets/admin/img/info-circle.svg') }}"
+                                                <img src="{{ asset('/assets/admin/img/info-circle.svg') }}"
                                                     alt="{{ translate('messages.store_lat_lng_warning') }}"></span>
                                             <span class="form-label-secondary text-danger" data-toggle="tooltip"
                                                 data-placement="right"
@@ -302,7 +302,7 @@
                                             <span class="form-label-secondary" data-toggle="tooltip"
                                                 data-placement="right"
                                                 data-original-title="{{ translate('messages.store_lat_lng_warning') }}"><img
-                                                    src="{{ asset('/public/assets/admin/img/info-circle.svg') }}"
+                                                    src="{{ asset('/assets/admin/img/info-circle.svg') }}"
                                                     alt="{{ translate('messages.store_lat_lng_warning') }}">
                                             </span>
                                             <span class="form-label-secondary text-danger" data-toggle="tooltip"
@@ -408,7 +408,7 @@
                                             for="signupSrPassword">{{ translate('messages.password') }}<span
                                                 class="form-label-secondary" data-toggle="tooltip" data-placement="right"
                                                 data-original-title="{{ translate('messages.Must_contain_at_least_one_number_and_one_uppercase_and_lowercase_letter_and_symbol,_and_at_least_8_or_more_characters') }}"><img
-                                                    src="{{ asset('/public/assets/admin/img/info-circle.svg') }}"
+                                                    src="{{ asset('/assets/admin/img/info-circle.svg') }}"
                                                     alt="{{ translate('messages.Must_contain_at_least_one_number_and_one_uppercase_and_lowercase_letter_and_symbol,_and_at_least_8_or_more_characters') }}"></span>
                                             <span class="form-label-secondary text-danger" data-toggle="tooltip"
                                                 data-placement="right"
@@ -515,9 +515,9 @@
                                         </div>
                                         <div class="form-group error-wrapper">
                                             <div id="file-assets"
-                                                data-picture-icon="{{ asset('public/assets/admin/img/picture.svg') }}"
-                                                data-document-icon="{{ asset('public/assets/admin/img/document.svg') }}"
-                                                data-blank-thumbnail="{{ asset('public/assets/admin/img/picture.svg') }}">
+                                                data-picture-icon="{{ asset('assets/admin/img/picture.svg') }}"
+                                                data-document-icon="{{ asset('assets/admin/img/document.svg') }}"
+                                                data-blank-thumbnail="{{ asset('assets/admin/img/picture.svg') }}">
                                             </div>
                                             <!-- Upload box -->
                                             <div class="d-flex justify-content-center mb-2" id="pdf-container">
@@ -527,7 +527,7 @@
                                                         data-max-size="2mb">
                                                     <div class="textbox">
                                                         <img width="40" height="40" class="svg"
-                                                            src="{{ asset('public/assets/admin/img/doc-uploaded.png') }}"
+                                                            src="{{ asset('assets/admin/img/doc-uploaded.png') }}"
                                                             alt="">
                                                         <p class="fs-12 mb-0">
                                                             {{ translate('messages.Select_a_file_or') }} <span
@@ -558,11 +558,11 @@
 @endsection
 
 @push('script_2')
-    <script src="{{ asset('public/assets/admin/js/file-preview/pdf.min.js') }}"></script>
-    <script src="{{ asset('public/assets/admin/js/file-preview/pdf-worker.min.js') }}"></script>
-    <script src="{{ asset('public/assets/admin/js/file-preview/add-multiple-document-upload.js') }}"></script>
+    <script src="{{ asset('assets/admin/js/file-preview/pdf.min.js') }}"></script>
+    <script src="{{ asset('assets/admin/js/file-preview/pdf-worker.min.js') }}"></script>
+    <script src="{{ asset('assets/admin/js/file-preview/add-multiple-document-upload.js') }}"></script>
 
-    <script src="{{ asset('public/assets/admin/js/spartan-multi-image-picker.js') }}"></script>
+    <script src="{{ asset('assets/admin/js/spartan-multi-image-picker.js') }}"></script>
     <script
         src="https://maps.googleapis.com/maps/api/js?key={{ \App\CentralLogics\Helpers::get_business_settings('map_api_key') }}&libraries=places,marker&callback=initMap&v=3.61">
     </script>
@@ -808,9 +808,9 @@
         })
 
         $('#reset_btn').click(function() {
-            $('#viewer').attr('src', "{{ asset('public/assets/admin/img/upload-img.png') }}");
+            $('#viewer').attr('src', "{{ asset('assets/admin/img/upload-img.png') }}");
             $('#customFileEg1').val(null);
-            $('#coverImageViewer').attr('src', "{{ asset('public/assets/admin/img/upload-img.png') }}");
+            $('#coverImageViewer').attr('src', "{{ asset('assets/admin/img/upload-img.png') }}");
             $('#coverImageUpload').val(null);
             $('#choice_zones').val(null).trigger('change');
             zonePolygon.setMap(null);
@@ -886,7 +886,7 @@
 
                                 $(this).val('');
                                 $(imgViewerSelector)
-                                    .attr('src', '{{ asset('public/assets/admin/img/upload-img.png') }}')
+                                    .attr('src', '{{ asset('assets/admin/img/upload-img.png') }}')
                                     .hide();
                                 $(textBoxSelector).show();
                                 return;
@@ -900,7 +900,7 @@
 
                             $(this).val('');
                             $(imgViewerSelector)
-                                .attr('src', '{{ asset('public/assets/admin/img/upload-img.png') }}')
+                                .attr('src', '{{ asset('assets/admin/img/upload-img.png') }}')
                                 .hide();
                             $(textBoxSelector).show();
                             return;
@@ -914,7 +914,7 @@
                         reader.readAsDataURL(file);
                     } else {
                         $(imgViewerSelector)
-                            .attr('src', '{{ asset('public/assets/admin/img/upload-img.png') }}')
+                            .attr('src', '{{ asset('assets/admin/img/upload-img.png') }}')
                             .hide();
                         $(textBoxSelector).show();
                     }

@@ -8,7 +8,7 @@
         <div class="d-flex flex-wrap justify-content-between">
             <h1 class="page-header-title">
                 <span class="page-header-icon">
-                    <img src="{{asset('public/assets/admin/img/landing.png')}}" class="w--20" alt="">
+                    <img src="{{asset('assets/admin/img/landing.png')}}" class="w--20" alt="">
                 </span>
                 <span>
                     {{ translate('messages.react_landing_page') }}
@@ -51,7 +51,7 @@
                 <p class="mb-0 fs-12">{{ translate('Manage the main title and subtitle for the Frequently Asked Questions section.	') }}</p>
             </div>
         </div>
-        <div class="card-body"> 
+        <div class="card-body">
             <div class="card p-xxl-4 p-3 mb-20 border-0">
                 <form action="#0">
                     <div class="row g-3">
@@ -80,7 +80,7 @@
                                                         <i class="tio-info color-A7A7A7"></i>
                                                     </span><span class="form-label-secondary text-danger"
                                                     data-toggle="tooltip" data-placement="right"
-                                                    data-original-title="{{ translate('messages.Required.')}}"> 
+                                                    data-original-title="{{ translate('messages.Required.')}}">
                                                     </span>
                                                 </label>
                                                 <input id="high_light_title" type="text"  maxlength="50" name="high_light_title[]" value="" class="form-control" placeholder="{{translate('messages.title_here...')}}">
@@ -97,7 +97,7 @@
                         <button type="submit"   class="btn btn--primary">{{translate('Save')}}</button>
                     </div>
                 </form>
-            </div>  
+            </div>
             <div class="card mb-20 border-0">
                 <div class="card-body p-xxl-4 p-3">
                     <div class="mb-20">
@@ -141,7 +141,7 @@
                                                             <i class="tio-info color-A7A7A7"></i>
                                                         </span><span class="form-label-secondary text-danger"
                                                         data-toggle="tooltip" data-placement="right"
-                                                        data-original-title="{{ translate('messages.Required.')}}"> 
+                                                        data-original-title="{{ translate('messages.Required.')}}">
                                                         </span>
                                                     </label>
                                                     <input id="high_light_title" type="text"  maxlength="150" name="high_light_title[]" value="" class="form-control" placeholder="{{translate('messages.Question Here...')}}">
@@ -153,7 +153,7 @@
                                                         <i class="tio-info color-A7A7A7"></i>
                                                     </span><span class="form-label-secondary text-danger"
                                                     data-toggle="tooltip" data-placement="right"
-                                                    data-original-title="{{ translate('messages.Required.')}}"> 
+                                                    data-original-title="{{ translate('messages.Required.')}}">
                                                     </span>
                                                     </label>
                                                     <textarea id="high_light_sub_title" rows="1" type="text"  maxlength="500" name="high_light_sub_title[]" value="" class="form-control min-h-45px" placeholder="{{translate('messages.Answer Here...')}}"></textarea>
@@ -204,12 +204,12 @@
                                     <td>1</td>
                                     <td>
                                         <div class="text-wrap line-limit-2  max-w--220px min-w-160 text-title">
-                                            Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, 
+                                            Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet,
                                         </div>
                                     </td>
                                     <td>
                                         <div class="text-wrap line-limit-3  max-w-400px min-w-176px text-title">
-                                            Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, 
+                                            Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet,
                                         </div>
                                     </td>
                                     <td>
@@ -240,12 +240,12 @@
                                     <td>2</td>
                                     <td>
                                         <div class="text-wrap line-limit-2  max-w--220px min-w-160 text-title">
-                                            Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, 
+                                            Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet,
                                         </div>
                                     </td>
                                     <td>
                                         <div class="text-wrap line-limit-3  max-w-400px min-w-176px text-title">
-                                            Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, 
+                                            Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet,
                                         </div>
                                     </td>
                                     <td>
@@ -271,17 +271,17 @@
                                             </a>
                                         </div>
                                     </td>
-                                </tr>  
+                                </tr>
                                 <tr>
                                     <td>3</td>
                                     <td>
                                         <div class="text-wrap line-limit-2  max-w--220px min-w-160 text-title">
-                                            Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, 
+                                            Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet,
                                         </div>
                                     </td>
                                     <td>
                                         <div class="text-wrap line-limit-3  max-w-400px min-w-176px text-title">
-                                            Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, 
+                                            Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet,
                                         </div>
                                     </td>
                                     <td>
@@ -307,17 +307,17 @@
                                             </a>
                                         </div>
                                     </td>
-                                </tr>  
+                                </tr>
                                 <tr>
                                     <td>4</td>
                                     <td>
                                         <div class="text-wrap line-limit-2  max-w--220px min-w-160 text-title">
-                                            Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, 
+                                            Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet,
                                         </div>
                                     </td>
                                     <td>
                                         <div class="text-wrap line-limit-3  max-w-400px min-w-176px text-title">
-                                            Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, 
+                                            Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet,
                                         </div>
                                     </td>
                                     <td>
@@ -343,7 +343,7 @@
                                             </a>
                                         </div>
                                     </td>
-                                </tr>                                                  
+                                </tr>
                             </tbody>
                         </table>
                         <div class="page-area px-3 pt-3 pb-2 d-flex align-items-center gap-3 justify-content-between flex-wrap">
@@ -370,14 +370,14 @@
                     </div>
                     <!-- End Table -->
                 </div>
-            </div>             
+            </div>
         </div>
     </div>
 
 
 
 
- 
+
 
 
 
@@ -400,7 +400,7 @@
             </div>
             <div class="custom-offcanvas-body custom-offcanvas-body-100  p-20">
                <section class="common-section-view bg-white border rounded-10 my-xl-2 mx-xl-2">
-                    <div class="common-section-inner0">                        
+                    <div class="common-section-inner0">
                         <h2 class="mb-md-4 mb-3 fs-24 text-center">
                             Got Questions? We’ve Got <span class="text-base-clr">Answers</span>
                         </h2>
@@ -469,7 +469,7 @@
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                                 <div class="accordion d-flex flex-column gap-3 question-accordion" id="faqAccordion">
                                     <div class="card">
-                                        <div class="card-header-cus" id="headingOne">            
+                                        <div class="card-header-cus" id="headingOne">
                                             <button class="btn btn-link text-wrap text-title" type="button" data-toggle="collapse" data-target="#collapseOne"
                                             aria-expanded="true" aria-controls="collapseOne">
                                                 How do I place an order on 6amMart from start to finish?
@@ -538,7 +538,7 @@
                                         <div class="d-flex align-items-center gap-3 flex-wrap justify-content-xl-between justify-content-center text-xl-start text-center flex-xl-nowrap">
                                             <div class="d-xl-flex gap-x-xl-20 align-items-center flex-xl-nowrap flex-wrap">
                                                 <div class="w-50px bg-white h-50px min-h-50 rounded-circle d-center mx-auto mb-xl-0 mb-2">
-                                                    <img src="{{ asset('/public/assets/admin/img/icons/faq-question.png') }}" alt="" class="object-contain">
+                                                    <img src="{{ asset('/assets/admin/img/icons/faq-question.png') }}" alt="" class="object-contain">
                                                 </div>
                                                 <div>
                                                     <h2 class="mb-lg-1 mb-1 fs-20 text-title">
@@ -559,7 +559,7 @@
                             <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                                 <div class="accordion d-flex flex-column gap-3 question-accordion" id="faqAccordion2">
                                     <div class="card">
-                                        <div class="card-header-cus" id="headingOne01">            
+                                        <div class="card-header-cus" id="headingOne01">
                                             <button class="btn btn-link text-wrap text-title" type="button" data-toggle="collapse" data-target="#collapseOne01"
                                             aria-expanded="true" aria-controls="collapseOne01">
                                                 How do I place an order on 6amMart from start to finish?
@@ -628,7 +628,7 @@
                                         <div class="d-flex align-items-center gap-3 flex-wrap justify-content-xl-between justify-content-center text-xl-start text-center flex-xl-nowrap">
                                             <div class="d-xl-flex gap-x-xl-20 align-items-center flex-xl-nowrap flex-wrap">
                                                 <div class="w-50px bg-white h-50px min-h-50 rounded-circle d-center mx-auto mb-xl-0 mb-2">
-                                                    <img src="{{ asset('/public/assets/admin/img/icons/faq-question.png') }}" alt="" class="object-contain">
+                                                    <img src="{{ asset('/assets/admin/img/icons/faq-question.png') }}" alt="" class="object-contain">
                                                 </div>
                                                 <div>
                                                     <h2 class="mb-lg-1 mb-1 fs-20 text-title">
@@ -649,7 +649,7 @@
                             <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
                                 <div class="accordion d-flex flex-column gap-3 question-accordion" id="faqAccordion3">
                                     <div class="card">
-                                        <div class="card-header-cus" id="headingOne-cus01">            
+                                        <div class="card-header-cus" id="headingOne-cus01">
                                             <button class="btn btn-link text-wrap text-title" type="button" data-toggle="collapse" data-target="#collapseOne-cus01"
                                             aria-expanded="true" aria-controls="collapseOne-cus01">
                                                 How do I place an order on 6amMart from start to finish?
@@ -718,7 +718,7 @@
                                         <div class="d-flex align-items-center gap-3 flex-wrap justify-content-xl-between justify-content-center text-xl-start text-center flex-xl-nowrap">
                                             <div class="d-xl-flex gap-x-xl-20 align-items-center flex-xl-nowrap flex-wrap">
                                                 <div class="w-50px bg-white h-50px min-h-50 rounded-circle d-center mx-auto mb-xl-0 mb-2">
-                                                    <img src="{{ asset('/public/assets/admin/img/icons/faq-question.png') }}" alt="" class="object-contain">
+                                                    <img src="{{ asset('/assets/admin/img/icons/faq-question.png') }}" alt="" class="object-contain">
                                                 </div>
                                                 <div>
                                                     <h2 class="mb-lg-1 mb-1 fs-20 text-title">

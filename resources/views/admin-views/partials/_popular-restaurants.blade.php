@@ -24,8 +24,8 @@
                 <li class="cursor-pointer redirect-url" data-url="{{ route('admin.store.view', $item->store_id) }}">
                     <div class="img-container">
                         <img class="onerror-image"
-                            data-onerror-image="{{ asset('public/assets/admin/img/100x100/1.png') }}"
-                            src="{{ $item->store['logo_full_url'] ?? asset('public/assets/admin/img/100x100/1.png') }}"
+                            data-onerror-image="{{ asset('assets/admin/img/100x100/1.png') }}"
+                            src="{{ $item->store['logo_full_url'] ?? asset('assets/admin/img/100x100/1.png') }}"
                             alt="{{ translate('store') }}" title="{{ $item?->store?->name }}">
                         <span class="ml-2" title="{{ $item?->store?->name }}">
                             {{ Str::limit($item->store->name ?? translate('messages.store deleted!'), 20, '...') }}
@@ -39,13 +39,13 @@
         </ul>
     @else
         <!-- <div class="empty--data">
-            <img src="{{ asset('/public/assets/admin/svg/illustrations/empty-state.svg') }}" alt="public">
+            <img src="{{ asset('/assets/admin/svg/illustrations/empty-state.svg') }}" alt="public">
             <h5>
                 {{ translate('no_data_found') }}
             </h5>
         </div> -->
         <div class="empty--data d-flex flex-column align-items-center justify-content-center h-100 w-100">
-            <img src="{{ asset('/public/assets/admin/img/no-store.png') }}" alt="public">
+            <img src="{{ asset('/assets/admin/img/no-store.png') }}" alt="public">
             <h5 class="secondary-clr">
                 {{ translate('No stores available') }}
             </h5>
@@ -54,4 +54,4 @@
 
 
 </div>
-<script src="{{ asset('public/assets/admin') }}/js/view-pages/common.js"></script>
+<script src="{{ asset('assets/admin') }}/js/view-pages/common.js"></script>

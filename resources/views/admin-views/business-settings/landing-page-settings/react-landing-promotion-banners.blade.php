@@ -10,7 +10,7 @@
             <div class="d-flex flex-wrap justify-content-between">
                 <h1 class="page-header-title">
                 <span class="page-header-icon">
-                    <img src="{{asset('public/assets/admin/img/landing.png')}}" class="w--20" alt="">
+                    <img src="{{asset('assets/admin/img/landing.png')}}" class="w--20" alt="">
                 </span>
                     <span>
                     {{ translate('messages.react_landing_page') }}
@@ -67,8 +67,8 @@
                         </form>
                         <label class="toggle-switch toggle-switch-sm" for="CheckboxStatus">
                             <input type="checkbox" data-id="CheckboxStatus" data-type="status"
-                                   data-image-on="{{ asset('/public/assets/admin/img/status-ons.png') }}"
-                                   data-image-off="{{ asset('/public/assets/admin/img/off-danger.png') }}"
+                                   data-image-on="{{ asset('/assets/admin/img/status-ons.png') }}"
+                                   data-image-off="{{ asset('/assets/admin/img/off-danger.png') }}"
                                    data-title-on="{{ translate('Do you want turn on this section ?') }}"
                                    data-title-off="{{ translate('Do you want to turn off this section ?') }}"
                                    data-text-on="<p>{{ translate('If you turn on this section will be show in react landing page.') }}"
@@ -109,7 +109,7 @@
                                         <!-- <div>
                                         <label class="form-label d-block mb-3">
                                             {{translate('Banner')}}  <span class="text--primary">{{translate('(size: 2:1)')}}</span><span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('If_you_want_to_upload_one_banner_then_you_have_to_upload_it_in_2:1_ratio_otherwise_the_ratio_will_be_same_as_before.') }}">
-                                                <img src="{{asset('public/assets/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span>
                                         </label>
 
@@ -134,7 +134,7 @@
                                                         <label class="upload-file__wrapper ratio-3-1 m-0">
                                                             <div class="upload-file-textbox text-center">
                                                                 <img width="22" class="svg"
-                                                                     src="{{asset('public/assets/admin/img/document-upload.svg')}}"
+                                                                     src="{{asset('assets/admin/img/document-upload.svg')}}"
                                                                      alt="img">
                                                                 <h6 class="mt-1 color-656566 fw-medium fs-10 lh-base text-center">
                                                                     <span class="theme-clr">Click to upload</span>
@@ -206,7 +206,7 @@
                                                 <td>
                                                     <img
                                                         src="{{ \App\CentralLogics\Helpers::get_full_url('promotional_banner',$banner->image ?? '','public') }}"
-                                                        data-onerror-image="{{asset('/public/assets/admin/img/upload-3.png')}}"
+                                                        data-onerror-image="{{asset('/assets/admin/img/upload-3.png')}}"
                                                         class="w-135px min-w-50px h-50px rounded mw-100 onerror-image"
                                                         alt="">
                                                 </td>
@@ -215,8 +215,8 @@
                                                         <input type="checkbox"
                                                                data-id="react_promotional_banner_status_{{$banner->id}}"
                                                                data-type="status"
-                                                               data-image-on="{{ asset('/public/assets/admin/img/modal/testimonial-on.png') }}"
-                                                               data-image-off="{{ asset('/public/assets/admin/img/modal/testimonial-off.png') }}"
+                                                               data-image-on="{{ asset('/assets/admin/img/modal/testimonial-on.png') }}"
+                                                               data-image-off="{{ asset('/assets/admin/img/modal/testimonial-off.png') }}"
                                                                data-title-on="{{translate('Want_to_Enable_this')}} <strong>{{translate('Promotional_Banner')}}</strong>"
                                                                data-title-off="{{translate('Want_to_Disable_this')}} <strong>{{translate('Promotional_Banner')}}</strong>"
                                                                data-text-on="<p>{{translate('If_enabled,_it_will_be_available_on_the_React_Landing_page')}}</p>"
@@ -270,7 +270,7 @@
                             </div>
                             @if(count($banners) === 0)
                                 <div class="empty--data">
-                                    <img src="{{asset('/public/assets/admin/svg/illustrations/sorry.svg')}}"
+                                    <img src="{{asset('/assets/admin/svg/illustrations/sorry.svg')}}"
                                          alt="public">
                                     <h5>
                                         {{translate('no_data_found')}}
@@ -349,7 +349,7 @@
                                                 <label class="upload-file__wrapper ratio-3-1 m-0">
                                                     <div class="upload-file-textbox text-center">
                                                         <img width="22" class="svg"
-                                                             src="{{asset('public/assets/admin/img/document-upload.svg')}}"
+                                                             src="{{asset('assets/admin/img/document-upload.svg')}}"
                                                              alt="img">
                                                         <h6 class="mt-1 color-656566 fw-medium fs-10 lh-base text-center">
                                                             <span class="theme-clr">Click to upload</span>

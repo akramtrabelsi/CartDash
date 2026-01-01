@@ -8,7 +8,7 @@
         <div class="d-flex flex-wrap justify-content-between">
             <h1 class="page-header-title">
                 <span class="page-header-icon">
-                    <img src="{{asset('public/assets/admin/img/landing.png')}}" class="w--20" alt="">
+                    <img src="{{asset('assets/admin/img/landing.png')}}" class="w--20" alt="">
                 </span>
                 <span>
                     {{ translate('messages.react_landing_page') }}
@@ -124,7 +124,7 @@
                                                 accept=".webp, .jpg, .jpeg, .png, .gif" required>
                                         <label class="upload-file__wrapper w-100 h-100 m-0">
                                             <div class="upload-file-textbox text-center" style="">
-                                                <img width="22" class="svg" src="{{asset('public/assets/admin/img/document-upload.svg')}}" alt="img">
+                                                <img width="22" class="svg" src="{{asset('assets/admin/img/document-upload.svg')}}" alt="img">
                                                 <h6 class="mt-1 color-656566 fw-medium fs-10 lh-base text-center">
                                                     <span class="theme-clr">Click to upload</span>
                                                     <br>
@@ -165,7 +165,7 @@
 
     <div class="card shadow-none border-0 bg-opacity-primary-10 mb-20">
         <div class="card-body py-3 d-flex gap-2 align-items-center">
-            <img width="20" src="{{asset('public/assets/admin/img/info-idea.svg')}}" alt="img">            
+            <img width="20" src="{{asset('assets/admin/img/info-idea.svg')}}" alt="img">
             <p class="fs-12 color-656566 m-0">
                 {{ translate('Our 12 popular partners will be automatically displayed on the Admin Landing Page, based on their popularity') }}
             </p>
@@ -233,7 +233,7 @@
                                                 data-toggle="tooltip" data-placement="right"
                                                 data-original-title="{{ translate('messages.Required.')}}"> *
                                                 </span>
-    
+
                                             </label>
                                         <input id="download_user_app_title" type="text"  maxlength="100" name="download_user_app_title[]" value="{{ $download_user_app_title?->getRawOriginal('value')??'' }}" class="form-control" placeholder="{{translate('messages.title_here...')}}">
                                         <span class="text-right text-counting color-A7A7A7 d-block mt-1">0/100</span>
@@ -246,7 +246,7 @@
                                                 data-toggle="tooltip" data-placement="right"
                                                 data-original-title="{{ translate('messages.Required.')}}"> *
                                                 </span>
-    
+
                                             </label>
                                         <input id="download_user_app_sub_title" type="text"  maxlength="200" name="download_user_app_sub_title[]" value="{{ $download_user_app_sub_title?->getRawOriginal('value')??'' }}" class="form-control" placeholder="{{translate('messages.sub_title_here...')}}">
                                         <span class="text-right text-counting color-A7A7A7 d-block mt-1">0/200</span>
@@ -264,7 +264,7 @@
                                                         $download_user_app_title_translate[$lang]['value'] = $t->value;
                                                     }
                                                 }
-    
+
                                             }
                                         if(isset($download_user_app_sub_title->translations)&&count($download_user_app_sub_title->translations)){
                                                 $download_user_app_sub_title_translate = [];
@@ -274,7 +274,7 @@
                                                         $download_user_app_sub_title_translate[$lang]['value'] = $t->value;
                                                     }
                                                 }
-    
+
                                             }
                                             ?>
                                         <div class="col-md-12 d-none lang_form" id="{{$lang}}-form1">
@@ -321,7 +321,7 @@
                                     <div class="bg-white rounded p-xxl-4 p-2">
                                         <div class="d-flex mb-20 align-items-center gap-2 flex-wrap justify-content-between">
                                             <h4 class="mb-0">
-                                                <img src="{{asset('public/assets/admin/img/playstore.png')}}" class="mr-2" alt="">
+                                                <img src="{{asset('assets/admin/img/playstore.png')}}" class="mr-2" alt="">
                                                 {{translate('Playstore Button')}}
                                             </h4>
                                             <label class="toggle-switch toggle-switch-sm m-0">
@@ -329,14 +329,14 @@
                                                         id="play-store-dm-status"
                                                         data-id="play-store-dm-status"
                                                         data-type="toggle"
-                                                        data-image-on="{{ asset('/public/assets/admin/img/modal/play-store-on.png') }}"
-                                                        data-image-off="{{ asset('/public/assets/admin/img/modal/play-store-off.png') }}"
+                                                        data-image-on="{{ asset('/assets/admin/img/modal/play-store-on.png') }}"
+                                                        data-image-off="{{ asset('/assets/admin/img/modal/play-store-off.png') }}"
                                                         data-title-on="{{ translate('want_to_enable_the_play_store_button_for_user_app') }}"
                                                         data-title-off="{{ translate('want_to_disable_the_play_store_button_for_user_app') }}"
                                                         data-text-on="<p>{{ translate('if_enabled,_the_user_app_download_button_will_be_visible_on_react_landing_page') }}</p>"
                                                         data-text-off="<p>{{ translate('if_disabled,_this_button_will_be_hidden_from_the_react_landing_page') }}</p>"
                                                         class="status toggle-switch-input dynamic-checkbox-toggle"
-        
+
                                                         value="1" {{(isset($download_user_app_links) && $download_user_app_links['playstore_url_status'])?'checked':''}}>
                                                 <span class="toggle-switch-label text mb-0">
                                                     <span class="toggle-switch-indicator"></span>
@@ -360,17 +360,17 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="bg-white rounded p-xxl-4 p-2">
-                                        <div class="d-flex mb-20 align-items-center gap-2 flex-wrap justify-content-between">                                        
+                                        <div class="d-flex mb-20 align-items-center gap-2 flex-wrap justify-content-between">
                                             <h4 class="m-0">
-                                                <img src="{{asset('public/assets/admin/img/ios.png')}}" class="mr-2" alt="">
+                                                <img src="{{asset('assets/admin/img/ios.png')}}" class="mr-2" alt="">
                                                 {{translate('App Store Button')}}
                                             </h4>
                                             <label class="toggle-switch toggle-switch-sm m-0">
                                                 <input type="checkbox" name="apple_store_url_status"
                                                         data-id="apple-dm-status"
                                                         data-type="toggle"
-                                                        data-image-on="{{ asset('/public/assets/admin/img/modal/apple-on.png') }}"
-                                                        data-image-off="{{ asset('/public/assets/admin/img/modal/apple-off.png') }}"
+                                                        data-image-on="{{ asset('/assets/admin/img/modal/apple-on.png') }}"
+                                                        data-image-off="{{ asset('/assets/admin/img/modal/apple-off.png') }}"
                                                         data-title-on="{{ translate('want_to_enable_the_app_store_button_for_user_app') }}"
                                                         data-title-off="{{ translate('want_to_disable_the_app_store_button_for_user_app') }}"
                                                         data-text-on="<p>{{ translate('if_enabled,_the_user_app_download_button_will_be_visible_on_react_landing_page') }}</p>"
@@ -428,10 +428,10 @@
             </div>
             <div class="custom-offcanvas-body custom-offcanvas-body-100  p-20">
                <section class="common-section-view bg-white border rounded-10 my-xl-2 mx-xl-2">
-                    <div class="common-section-inner d-flex flex-xxl-nowrap justify-content-lg-between justify-content-center flex-wrap align-items-center gap-x-xl-20">                        
+                    <div class="common-section-inner d-flex flex-xxl-nowrap justify-content-lg-between justify-content-center flex-wrap align-items-center gap-x-xl-20">
                         <div class="d-flex align-items-center flex-md-nowrap flex-wrap gap-x-xl-20 max-w-490 mb-xxl-0 mb-3 text-md-start text-center">
                             <div class="selling-thumb min-w-150 max-w-165 mr-xl-0 mr-md-3 mx-auto">
-                                <img width="160" src="{{ asset('/public/assets/admin/img/400x400/selling-thumb.png') }}" alt="Google Play" class="object-contain h-100">
+                                <img width="160" src="{{ asset('/assets/admin/img/400x400/selling-thumb.png') }}" alt="Google Play" class="object-contain h-100">
                             </div>
                            <div class="mt-xl-0 mt-2">
                                 <h2 class="mb-xxl-2 mb-1 fs-20">
@@ -449,7 +449,7 @@
                             <div class="__bg-FAFAFA rounded-10 px-xl-3 px-1 py-3 d-flex flex-xl-nowrap flex-wrap justify-content-xl-start justify-content-center align-items-center gap-x-xl-20">
                                 <div class="scan-wrap bg-white max-w-138 rounded px-xl-2 px-1 py-3 mb-xl-0 mb-3 w-xl-auto w-100">
                                     <div class="scan d-center border w-80px h-80px mx-auto rounded p-1">
-                                        <img src="{{ asset('/public/assets/admin/img/400x400/app-scan.png') }}" alt="Google Play" class="object-cover w-100 h-100">
+                                        <img src="{{ asset('/assets/admin/img/400x400/app-scan.png') }}" alt="Google Play" class="object-cover w-100 h-100">
                                     </div>
                                     <p class="mb-0 fs-12 mt-1 text-center">{{ translate('messages.Scan to DownLoad') }}</p>
                                 </div>
@@ -460,15 +460,15 @@
                                     </div>
                                     <div class="d-flex justify-content-sm-start justify-content-center flex-sm-nowrap flex-wrap align-items-center gap-x-xl-10 app-manage">
                                         <!-- Google Play Button -->
-                                        <a href="#" class="btn btn-primary d-flex align-items-center mr-2 px-3 py-2 bg-000 rounded mb-sm-0 mb-1">                                    
-                                            <img width="24" height="24" src="{{ asset('/public/assets/admin/img/icons/playstore.png') }}" alt="Google Play" class="mr-1">
+                                        <a href="#" class="btn btn-primary d-flex align-items-center mr-2 px-3 py-2 bg-000 rounded mb-sm-0 mb-1">
+                                            <img width="24" height="24" src="{{ asset('/assets/admin/img/icons/playstore.png') }}" alt="Google Play" class="mr-1">
                                             <div class="text-left">
                                                 <small class="d-block text-white mb-0 fs-12">GET IT ON</small>
                                                 <strong class="d-block text-white fs-14">Google Play</strong>
                                             </div>
                                         </a>
                                         <a href="#" class="btn btn-primary d-flex align-items-center px-3 py-2 bg-000 rounded">
-                                            <img width="24" height="24" src="{{ asset('/public/assets/admin/img/icons/apple-icon.png') }}" alt="App Store" class="mr-1">
+                                            <img width="24" height="24" src="{{ asset('/assets/admin/img/icons/apple-icon.png') }}" alt="App Store" class="mr-1">
                                             <div class="text-left">
                                                 <small class="d-block text-white mb-0 fs-12">Download ON</small>
                                                 <strong class="d-block text-white fs-14">App Store</strong>

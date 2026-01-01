@@ -12,7 +12,7 @@
         <div class="mb-4 withdraw-header-sticky z-2">
             <div class="page-title-wrap d-flex justify-content-between flex-wrap align-items-center gap-3">
                 <h2 class="page-title m-0">
-                    <img width="20" src="{{asset('/public/assets/admin/img/withdraw-icon.png')}}" alt="">
+                    <img width="20" src="{{asset('/assets/admin/img/withdraw-icon.png')}}" alt="">
                     {{ translate('Update Withdraw Method')}}
                 </h2>
                 <button class="btn btn--primary" id="add-more-field">
@@ -34,7 +34,7 @@
                                 <div class="form-floating">
                                     <label class="text-title">{{ translate('messages.method_name')}} <span
                                                 class="input-label-secondary text-danger">*</span></label>
-                                    
+
                                     <input type="text" class="form-control " name="method_name" id="method_name"
                                            placeholder="Select method name"
                                            value="{{$withdrawal_method['method_name']}}" required>

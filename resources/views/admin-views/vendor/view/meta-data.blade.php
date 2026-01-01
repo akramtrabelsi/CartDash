@@ -4,7 +4,7 @@
 
 @push('css_or_js')
     <!-- Custom styles for this page -->
-    <link href="{{ asset('public/assets/admin/css/croppie.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/admin/css/croppie.css') }}" rel="stylesheet">
 @endpush
 
 @section('content')
@@ -17,7 +17,7 @@
                     <div class="card-header">
                         <h5 class="card-title">
                             <span class="card-header-icon">
-                                <img class="w--22" src="{{ asset('public/assets/admin/img/store.png') }}" alt="">
+                                <img class="w--22" src="{{ asset('assets/admin/img/store.png') }}" alt="">
                             </span>
                             <span class="p-md-1"> {{ translate('messages.store_meta_data') }}</span>
                         </h5>
@@ -56,7 +56,7 @@
                                                             <span class="form-label-secondary" data-toggle="tooltip"
                                                                 data-placement="right"
                                                                 data-original-title="{{ translate('This title appears in browser tabs, search results, and link previews.Use a short, clear, and keyword-focused title (recommended: 50–60 characters)') }}">
-                                                                <img src="{{ asset('public/assets/admin/img/info-circle.svg') }}"
+                                                                <img src="{{ asset('assets/admin/img/info-circle.svg') }}"
                                                                     alt="">
                                                             </span>
                                                         </label>
@@ -73,7 +73,7 @@
                                                             <span class="form-label-secondary" data-toggle="tooltip"
                                                                 data-placement="right"
                                                                 data-original-title="{{ translate('A brief summary that appears under your page title in search results.Keep it compelling and relevant (recommended: 120–160 characters)') }}">
-                                                                <img src="{{ asset('public/assets/admin/img/info-circle.svg') }}"
+                                                                <img src="{{ asset('assets/admin/img/info-circle.svg') }}"
                                                                     alt="">
                                                             </span></label>
                                                         <textarea type="text" maxlength="160" name="meta_description[]"
@@ -102,7 +102,7 @@
                                                                 <span class="form-label-secondary" data-toggle="tooltip"
                                                                     data-placement="right"
                                                                     data-original-title="{{ translate('This title appears in browser tabs, search results, and link previews.Use a short, clear, and keyword-focused title (recommended: 50–60 characters)') }}">
-                                                                    <img src="{{ asset('public/assets/admin/img/info-circle.svg') }}"
+                                                                    <img src="{{ asset('assets/admin/img/info-circle.svg') }}"
                                                                         alt="">
                                                                 </span>
                                                             </label>
@@ -120,7 +120,7 @@
                                                                 <span class="form-label-secondary" data-toggle="tooltip"
                                                                     data-placement="right"
                                                                     data-original-title="{{ translate('A brief summary that appears under your page title in search results.Keep it compelling and relevant (recommended: 120–160 characters)') }}">
-                                                                    <img src="{{ asset('public/assets/admin/img/info-circle.svg') }}"
+                                                                    <img src="{{ asset('assets/admin/img/info-circle.svg') }}"
                                                                         alt="">
                                                                 </span></label>
                                                             <textarea type="text" maxlength="160" name="meta_description[]"
@@ -168,15 +168,15 @@
                                                             <span class="form-label-secondary" data-toggle="tooltip"
                                                                 data-placement="right"
                                                                 data-original-title="{{ translate('This image is used as a preview thumbnail when the page link is shared on social media or messaging platforms.') }}">
-                                                                <img src="{{ asset('public/assets/admin/img/info-circle.svg') }}"
+                                                                <img src="{{ asset('assets/admin/img/info-circle.svg') }}"
                                                                     alt="">
                                                             </span></label>
 
                                                         <div class="text-center">
                                                             <img class="img--110 min-height-170px min-width-170px onerror-image"
                                                                 id="viewer"
-                                                                data-onerror-image="{{ asset('public/assets/admin/img/upload.png') }}"
-                                                                src="{{ $store->meta_image_full_url ?? asset('public/assets/admin/img/upload.png') }}"
+                                                                data-onerror-image="{{ asset('assets/admin/img/upload.png') }}"
+                                                                src="{{ $store->meta_image_full_url ?? asset('assets/admin/img/upload.png') }}"
                                                                 alt="{{ translate('meta_image') }}" />
                                                         </div>
                                                         <input type="file" name="meta_image" id="customFileEg1"
@@ -187,8 +187,8 @@
                                                             <span id="earning_delivery_img"
                                                                 class="remove_image_button mt-4 dynamic-checkbox"
                                                                 data-id="earning_delivery_img" data-type="status"
-                                                                data-image-on='{{ asset('/public/assets/admin/img/modal') }}/mail-success.png'
-                                                                data-image-off="{{ asset('/public/assets/admin/img/modal') }}/mail-warning.png"
+                                                                data-image-on='{{ asset('/assets/admin/img/modal') }}/mail-success.png'
+                                                                data-image-off="{{ asset('/assets/admin/img/modal') }}/mail-warning.png"
                                                                 data-title-on="{{ translate('Important!') }}"
                                                                 data-title-off="{{ translate('Warning!') }}"
                                                                 data-text-on="<p>{{ translate('Are_you_sure_you_want_to_remove_this_image') }}</p>"

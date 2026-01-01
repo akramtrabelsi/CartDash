@@ -116,7 +116,7 @@
                         <div class="d-flex justify-content-center">
                             <label class="text-center position-relative">
                                 <img class="img--110 min-height-170px min-width-170px onerror-image image--border"
-                                    id="viewer" data-onerror-image="{{ asset('public/assets/admin/img/upload.png') }}"
+                                    id="viewer" data-onerror-image="{{ asset('assets/admin/img/upload.png') }}"
                                     src="{{ \App\CentralLogics\Helpers::get_full_url('landing/meta_image', $landingData['meta_image']?->value ?? '', $landingData['meta_image']?->storage[0]?->value ?? 'public', 'upload_image') }}"
                                     alt="logo image" />
                                 <div class="icon-file-group">
@@ -152,7 +152,7 @@
                                 <div class="upload-file-textbox text-center"
                                      style="{{ $meta_image?->value ? 'display: none;' : '' }}">
                                     <img width="22" class="svg"
-                                         src="{{asset('public/assets/admin/img/document-upload.svg')}}" alt="img">
+                                         src="{{asset('assets/admin/img/document-upload.svg')}}" alt="img">
                                     <h6 class="mt-1 color-656566 fw-medium fs-10 lh-base text-center">
                                         <span class="theme-clr">Click to upload</span>
                                         <br>

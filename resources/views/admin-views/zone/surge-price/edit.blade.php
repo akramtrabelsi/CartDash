@@ -5,8 +5,8 @@
 @push('css_or_js')
 <meta name="csrf-token" content="{{ csrf_token() }}">
 
-<script type="text/javascript" src="{{asset('public/assets/admin/js/moment.min.js')}}"></script>
-<script type="text/javascript" src="{{asset('public/assets/admin/js/daterangepicker.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('assets/admin/js/moment.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('assets/admin/js/daterangepicker.min.js')}}"></script>
 @endpush
 
 @section('content')
@@ -350,7 +350,7 @@
             <button type="submit" class="btn btn--primary min-w-120px">{{ translate('messages.Submit') }}</button>
         </div>
 
-       
+
     </form>
 
 
@@ -486,7 +486,7 @@
                              @php($scheduleTimeRange = \Carbon\Carbon::parse($schedule->start_time)->format('g:i A') . ' - ' . \Carbon\Carbon::parse($schedule->end_time)->format('g:i A'))
                             <div class="d-flex align-items-center gap-3">
                                 <div class="position-relative cursor-pointer">
-                                    <i class="tio-time icon-absolute-on-right fs-12"></i>  
+                                    <i class="tio-time icon-absolute-on-right fs-12"></i>
                                     <input autocomplete="off" type="text" class="form-control position-relative fs-10 h-32px bg-white time-range-picker" name="custom_time_range[]" placeholder="Select Time" value="{{ $scheduleTimeRange }}">
                                 </div>
                                 <button type="button" class="removeDay text-danger btn p-0"><i class="tio-clear-circle-outlined fs-20"></i></button>
@@ -518,12 +518,12 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">          
+      <div class="modal-body">
         <div class="bg-light rounded p-3">
             <div class="time-range-wrapper">
                 <label class="form-label">{{ translate('Change Time') }}</label>
                 <div class="position-relative cursor-pointer">
-                    <i class="tio-time icon-absolute-on-right"></i>  
+                    <i class="tio-time icon-absolute-on-right"></i>
                     <input autocomplete="off" type="text" class="form-control h-45 position-relative bg-transparent time-range-picker no-type" id="edit-time-range-input" placeholder="{{ translate('messages.Select_Time') }}">
                 </div>
             </div>
@@ -550,7 +550,7 @@
                 <div class="max-349 mx-auto mb-20">
                     <div>
                         <div class="text-center">
-                            <img id="toggle-image" alt="" src="{{ asset('public/assets/admin/img/modal-error.png') }}" class="mb-20">
+                            <img id="toggle-image" alt="" src="{{ asset('assets/admin/img/modal-error.png') }}" class="mb-20">
                             <h5 class="modal-title" id="toggle-title">{{ translate('Surge Price setup Overlap!') }}</h5>
                         </div>
                         <div class="text-center" id="toggle-message">
@@ -601,7 +601,7 @@
         });
 
         $(function() {
-            //Weekly Modal Date Select 
+            //Weekly Modal Date Select
             $(document).ready(function () {
                 let selectedDateRange = "";
 
@@ -645,14 +645,14 @@
                         toastr.error('Please select a date range.');
                         return;
                     }
-                    
 
-                    
+
+
                     // Bind to hidden inputs
                     $('#weekly_days').val(selectedDays.join(','));
                     $('#is_permanent').val(isPermanent);
                     $('.shedule_item .date-range-input-demo').val(selectedDateRange);
-                    
+
                     // Target the input inside the schedule_item section
                     function formatSelectedDays(days) {
                         if (days.length === 1) {
@@ -696,10 +696,10 @@
                 function updateScheduleVisibility() {
                     const radios = $('.shedule-checkbox-inner .form-check-input');
                     const items = $('.change-shedule-wrapper .shedule_item');
-                    items.hide(); 
+                    items.hide();
                     radios.each(function(index) {
                         if ($(this).is(':checked')) {
-                            items.eq(index).show(); 
+                            items.eq(index).show();
                         }
                     });
                 }
@@ -755,7 +755,7 @@
                 $(this).closest('.selected-list-item').remove();
             });
 
-            //Calender & Time Range Added            
+            //Calender & Time Range Added
             let display = document.querySelector(".display");
             let days = document.querySelector(".days");
             let previous = document.querySelector(".left");
@@ -821,7 +821,7 @@
 
                 bindDateClickEvents();
             }
-            
+
             function bindDateClickEvents() {
                 const dayElements = document.querySelectorAll(".days div[data-date]");
                 dayElements.forEach((day) => {
@@ -850,7 +850,7 @@
                     <input autocomplete="off" type="hidden" name="custom_dates[]" id="custom_dates" value="${dateString}">
                     <div class="d-flex align-items-center gap-3">
                         <div class="position-relative cursor-pointer">
-                            <i class="tio-time icon-absolute-on-right fs-12"></i>  
+                            <i class="tio-time icon-absolute-on-right fs-12"></i>
                             <input autocomplete="off" type="text" class="form-control position-relative fs-10 h-32px bg-white time-range-picker" name="custom_time_range[]" placeholder="Select Time" value="${timeRange}">
                         </div>
                         <button type="button" class="removeDay text-danger btn p-0"><i class="tio-clear-circle-outlined fs-20"></i></button>
@@ -940,7 +940,7 @@
 
             customSelectedDates.forEach(date => {
                 console.log(savedSelections[date]);
-                
+
                 if (!customSelectedDates.includes(date)) {
                     customSelectedDates.push(date);
                     appendSelectedItem(date, savedSelections[date]);
@@ -972,8 +972,8 @@
                 }
 
                 // Assign to hidden inputs
-                $('#custom_days').val(customDates); 
-                $('#custom_times').val(customTimes); 
+                $('#custom_days').val(customDates);
+                $('#custom_times').val(customTimes);
 
                 const selectedCount = customDates.length;
                 const placeholderText = selectedCount + ' day' + (selectedCount > 1 ? 's' : '') + ' selected';
@@ -1042,7 +1042,7 @@
 
             $(document).on('click', '.btn-remove-schedule', function (e) {
                 e.preventDefault();
-                
+
                 // Get the index from the row
                 const $row = $(this).closest('tr');
                 const index = $row.data('index');
@@ -1058,7 +1058,7 @@
                 }
 
                 // Remove the selected-list-item
-                $selectedItem.remove(); 
+                $selectedItem.remove();
 
                 // Reconstruct updated values
                 let updatedDates = [];
@@ -1085,20 +1085,20 @@
                     : '{!! translate("messages.Select Date & Time") !!}';
 
                 $('#custom_schedule_input').attr('placeholder', placeholderText);
-                
+
 
                 // Update date range display
                 if(updatedDates.length > 0) {
                     const sortedDates = updatedDates.map(date => new Date(date)).sort((a, b) => a - b);
-    
+
                     const minDate = sortedDates[0];
                     const maxDate = sortedDates[sortedDates.length - 1];
-    
+
                     const options = { day: 'numeric', month: 'short', year: 'numeric' };
-    
+
                     const formattedMin = minDate.toLocaleDateString('en-US', options);
                     const formattedMax = maxDate.toLocaleDateString('en-US', options);
-    
+
                     $('#custom-date-min').text(formattedMin);
                     $('#custom-date-max').text(formattedMax);
                 }
@@ -1317,7 +1317,7 @@ document.addEventListener('DOMContentLoaded', function () {
         input.addEventListener('keydown', function (e) {
             e.preventDefault();
         });
-        input.style.cursor = 'pointer'; 
+        input.style.cursor = 'pointer';
     });
 });
 </script>

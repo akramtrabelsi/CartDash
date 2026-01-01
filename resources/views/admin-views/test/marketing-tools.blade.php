@@ -5,15 +5,15 @@
 @push('css_or_js')
 <meta name="csrf-token" content="{{ csrf_token() }}">
 
-<script type="text/javascript" src="{{asset('public/assets/admin/js/moment.min.js')}}"></script>
-<script type="text/javascript" src="{{asset('public/assets/admin/js/daterangepicker.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('assets/admin/js/moment.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('assets/admin/js/daterangepicker.min.js')}}"></script>
 @endpush
 
 @section('content')
 <div class="content container-fluid">
     <h2 class="mb-20 fs-24">Marketing Tool</h2>
     <div class="info-notes-bg px-2 py-2 rounded fs-12  gap-2 align-items-center d-flex mb-15">
-       <img width="14" height="18" src="{{ asset('public/assets/admin/img/info-idea.svg') }}" class="w--20" alt="">
+       <img width="14" height="18" src="{{ asset('assets/admin/img/info-idea.svg') }}" class="w--20" alt="">
         <span>
             In this page you can add credentials to show your analytics on the platform. Make sure fill with proper data other wise you can’t see the analytics properly.
         </span>
@@ -31,11 +31,11 @@
                             <div class="">
                                 <div class="d-flex flex-sm-nowrap flex-wrap justify-content-end justify-content-end align-items-center gap-sm-3 gap-2">
                                     <div class="view-btn order-sm-0 order-3 fs-12 theme-clr cursor-pointer text-decoration-underline font-semibold d-flex align-items-center gap-1">
-                                        View 
+                                        View
                                         <i class="tio-arrow-downward fs-12"></i>
                                     </div>
                                     <div class="mb-0">
-                                        <label class="toggle-switch toggle-switch-sm mb-0" data-toggle="modal" data-target="#confirmation-modal-feature">                                           
+                                        <label class="toggle-switch toggle-switch-sm mb-0" data-toggle="modal" data-target="#confirmation-modal-feature">
                                             <input type="checkbox" class="status toggle-switch-input" name="status" value="">
                                             <span class="toggle-switch-label text mb-0">
                                                 <span class="toggle-switch-indicator">
@@ -47,13 +47,13 @@
                             </div>
                         </div>
                         <div class="view-details mt-20">
-                            <div class="bg--secondary rounded px-20 py-25"> 
+                            <div class="bg--secondary rounded px-20 py-25">
                                 <div class="form-group m-0">
                                     <label for="" class="fs-14 mb-10px text-title">Google Analytics Measurement ID</label>
                                     <div class="flex-xs-wrap d-flex align-items-center gap-3">
                                         <textarea name="gs" rows="1" class="form-control" placeholder="Enter the GA Measurement ID"></textarea>
                                         <button type="submit" class="btn py-1 min-w-100px h-40px btn--primary ">Save</button>
-                                    </div>             
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -73,11 +73,11 @@
                             <div class="">
                                 <div class="d-flex flex-sm-nowrap flex-wrap justify-content-end justify-content-end align-items-center gap-sm-3 gap-2">
                                     <div class="view-btn order-sm-0 order-3 fs-12 theme-clr cursor-pointer text-decoration-underline font-semibold d-flex align-items-center gap-1">
-                                        View 
+                                        View
                                         <i class="tio-arrow-downward fs-12"></i>
                                     </div>
                                     <div class="mb-0">
-                                        <label class="toggle-switch toggle-switch-sm mb-0" data-toggle="modal" data-target="#confirmation-modal-feature"> 
+                                        <label class="toggle-switch toggle-switch-sm mb-0" data-toggle="modal" data-target="#confirmation-modal-feature">
                                             <input type="checkbox" class="status toggle-switch-input" name="status" value="">
                                             <span class="toggle-switch-label text mb-0">
                                                 <span class="toggle-switch-indicator">
@@ -89,13 +89,13 @@
                             </div>
                         </div>
                         <div class="view-details mt-20">
-                            <div class="bg--secondary rounded px-20 py-25"> 
+                            <div class="bg--secondary rounded px-20 py-25">
                                 <div class="form-group m-0">
                                     <label for="" class="fs-14 mb-10px text-title">Google Analytics Measurement ID</label>
                                     <div class="flex-xs-wrap d-flex align-items-center gap-3">
                                         <textarea name="gs" rows="1" class="form-control" placeholder="Enter the GA Measurement ID"></textarea>
                                         <button type="submit" class="btn py-1 min-w-100px h-40px btn--primary ">Save</button>
-                                    </div>             
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -115,11 +115,11 @@
                             <div class="">
                                 <div class="d-flex flex-sm-nowrap flex-wrap justify-content-end justify-content-end align-items-center gap-sm-3 gap-2">
                                     <div class="view-btn order-sm-0 order-3 fs-12 theme-clr cursor-pointer text-decoration-underline font-semibold d-flex align-items-center gap-1">
-                                        View 
+                                        View
                                         <i class="tio-arrow-downward fs-12"></i>
                                     </div>
                                     <div class="mb-0">
-                                        <label class="toggle-switch toggle-switch-sm mb-0" data-toggle="modal" data-target="#confirmation-modal-feature"> 
+                                        <label class="toggle-switch toggle-switch-sm mb-0" data-toggle="modal" data-target="#confirmation-modal-feature">
                                             <input type="checkbox" class="status toggle-switch-input" name="status" value="">
                                             <span class="toggle-switch-label text mb-0">
                                                 <span class="toggle-switch-indicator">
@@ -131,13 +131,13 @@
                             </div>
                         </div>
                         <div class="view-details mt-20">
-                            <div class="bg--secondary rounded px-20 py-25"> 
+                            <div class="bg--secondary rounded px-20 py-25">
                                 <div class="form-group m-0">
                                     <label for="" class="fs-14 mb-10px text-title">Google Analytics Measurement ID</label>
                                     <div class="flex-xs-wrap d-flex align-items-center gap-3">
                                         <textarea name="gs" rows="1" class="form-control" placeholder="Enter the GA Measurement ID"></textarea>
                                         <button type="submit" class="btn py-1 min-w-100px h-40px btn--primary ">Save</button>
-                                    </div>             
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -157,11 +157,11 @@
                             <div class="">
                                 <div class="d-flex flex-sm-nowrap flex-wrap justify-content-end justify-content-end align-items-center gap-sm-3 gap-2">
                                     <div class="view-btn order-sm-0 order-3 fs-12 theme-clr cursor-pointer text-decoration-underline font-semibold d-flex align-items-center gap-1">
-                                        View 
+                                        View
                                         <i class="tio-arrow-downward fs-12"></i>
                                     </div>
                                     <div class="mb-0">
-                                        <label class="toggle-switch toggle-switch-sm mb-0" data-toggle="modal" data-target="#confirmation-modal-feature"> 
+                                        <label class="toggle-switch toggle-switch-sm mb-0" data-toggle="modal" data-target="#confirmation-modal-feature">
                                             <input type="checkbox" class="status toggle-switch-input" name="status" value="">
                                             <span class="toggle-switch-label text mb-0">
                                                 <span class="toggle-switch-indicator">
@@ -173,13 +173,13 @@
                             </div>
                         </div>
                         <div class="view-details mt-20">
-                            <div class="bg--secondary rounded px-20 py-25"> 
+                            <div class="bg--secondary rounded px-20 py-25">
                                 <div class="form-group m-0">
                                     <label for="" class="fs-14 mb-10px text-title">Google Analytics Measurement ID</label>
                                     <div class="flex-xs-wrap d-flex align-items-center gap-3">
                                         <textarea name="gs" rows="1" class="form-control" placeholder="Enter the GA Measurement ID"></textarea>
                                         <button type="submit" class="btn py-1 min-w-100px h-40px btn--primary ">Save</button>
-                                    </div>             
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -199,11 +199,11 @@
                             <div class="">
                                 <div class="d-flex flex-sm-nowrap flex-wrap justify-content-end justify-content-end align-items-center gap-sm-3 gap-2">
                                     <div class="view-btn order-sm-0 order-3 fs-12 theme-clr cursor-pointer text-decoration-underline font-semibold d-flex align-items-center gap-1">
-                                        View 
+                                        View
                                         <i class="tio-arrow-downward fs-12"></i>
                                     </div>
                                     <div class="mb-0">
-                                        <label class="toggle-switch toggle-switch-sm mb-0" data-toggle="modal" data-target="#confirmation-modal-feature"> 
+                                        <label class="toggle-switch toggle-switch-sm mb-0" data-toggle="modal" data-target="#confirmation-modal-feature">
                                             <input type="checkbox" class="status toggle-switch-input" name="status" value="">
                                             <span class="toggle-switch-label text mb-0">
                                                 <span class="toggle-switch-indicator">
@@ -215,13 +215,13 @@
                             </div>
                         </div>
                         <div class="view-details mt-20">
-                            <div class="bg--secondary rounded px-20 py-25"> 
+                            <div class="bg--secondary rounded px-20 py-25">
                                 <div class="form-group m-0">
                                     <label for="" class="fs-14 mb-10px text-title">Google Analytics Measurement ID</label>
                                     <div class="flex-xs-wrap d-flex align-items-center gap-3">
                                         <textarea name="gs" rows="1" class="form-control" placeholder="Enter the GA Measurement ID"></textarea>
                                         <button type="submit" class="btn py-1 min-w-100px h-40px btn--primary ">Save</button>
-                                    </div>             
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -241,11 +241,11 @@
                             <div class="">
                                 <div class="d-flex flex-sm-nowrap flex-wrap justify-content-end justify-content-end align-items-center gap-sm-3 gap-2">
                                     <div class="view-btn order-sm-0 order-3 fs-12 theme-clr cursor-pointer text-decoration-underline font-semibold d-flex align-items-center gap-1">
-                                        View 
+                                        View
                                         <i class="tio-arrow-downward fs-12"></i>
                                     </div>
                                     <div class="mb-0">
-                                        <label class="toggle-switch toggle-switch-sm mb-0" data-toggle="modal" data-target="#confirmation-modal-feature"> 
+                                        <label class="toggle-switch toggle-switch-sm mb-0" data-toggle="modal" data-target="#confirmation-modal-feature">
                                             <input type="checkbox" class="status toggle-switch-input" name="status" value="">
                                             <span class="toggle-switch-label text mb-0">
                                                 <span class="toggle-switch-indicator">
@@ -257,13 +257,13 @@
                             </div>
                         </div>
                         <div class="view-details mt-20">
-                            <div class="bg--secondary rounded px-20 py-25"> 
+                            <div class="bg--secondary rounded px-20 py-25">
                                 <div class="form-group m-0">
                                     <label for="" class="fs-14 mb-10px text-title">Google Analytics Measurement ID</label>
                                     <div class="flex-xs-wrap d-flex align-items-center gap-3">
                                         <textarea name="gs" rows="1" class="form-control" placeholder="Enter the GA Measurement ID"></textarea>
                                         <button type="submit" class="btn py-1 min-w-100px h-40px btn--primary ">Save</button>
-                                    </div>             
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -283,11 +283,11 @@
                             <div class="">
                                 <div class="d-flex flex-sm-nowrap flex-wrap justify-content-end justify-content-end align-items-center gap-sm-3 gap-2">
                                     <div class="view-btn order-sm-0 order-3 fs-12 theme-clr cursor-pointer text-decoration-underline font-semibold d-flex align-items-center gap-1">
-                                        View 
+                                        View
                                         <i class="tio-arrow-downward fs-12"></i>
                                     </div>
                                     <div class="mb-0">
-                                        <label class="toggle-switch toggle-switch-sm mb-0" data-toggle="modal" data-target="#confirmation-modal-feature"> 
+                                        <label class="toggle-switch toggle-switch-sm mb-0" data-toggle="modal" data-target="#confirmation-modal-feature">
                                             <input type="checkbox" class="status toggle-switch-input" name="status" value="">
                                             <span class="toggle-switch-label text mb-0">
                                                 <span class="toggle-switch-indicator">
@@ -299,13 +299,13 @@
                             </div>
                         </div>
                         <div class="view-details mt-20">
-                            <div class="bg--secondary rounded px-20 py-25"> 
+                            <div class="bg--secondary rounded px-20 py-25">
                                 <div class="form-group m-0">
                                     <label for="" class="fs-14 mb-10px text-title">Google Analytics Measurement ID</label>
                                     <div class="flex-xs-wrap d-flex align-items-center gap-3">
                                         <textarea name="gs" rows="1" class="form-control" placeholder="Enter the GA Measurement ID"></textarea>
                                         <button type="submit" class="btn py-1 min-w-100px h-40px btn--primary ">Save</button>
-                                    </div>             
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -325,11 +325,11 @@
                             <div class="">
                                 <div class="d-flex flex-sm-nowrap flex-wrap justify-content-end justify-content-end align-items-center gap-sm-3 gap-2">
                                     <div class="view-btn order-sm-0 order-3 fs-12 theme-clr cursor-pointer text-decoration-underline font-semibold d-flex align-items-center gap-1">
-                                        View 
+                                        View
                                         <i class="tio-arrow-downward fs-12"></i>
                                     </div>
                                     <div class="mb-0">
-                                        <label class="toggle-switch toggle-switch-sm mb-0" data-toggle="modal" data-target="#confirmation-modal-feature"> 
+                                        <label class="toggle-switch toggle-switch-sm mb-0" data-toggle="modal" data-target="#confirmation-modal-feature">
                                             <input type="checkbox" class="status toggle-switch-input" name="status" value="">
                                             <span class="toggle-switch-label text mb-0">
                                                 <span class="toggle-switch-indicator">
@@ -341,13 +341,13 @@
                             </div>
                         </div>
                         <div class="view-details mt-20">
-                            <div class="bg--secondary rounded px-20 py-25"> 
+                            <div class="bg--secondary rounded px-20 py-25">
                                 <div class="form-group m-0">
                                     <label for="" class="fs-14 mb-10px text-title">Google Analytics Measurement ID</label>
                                     <div class="flex-xs-wrap d-flex align-items-center gap-3">
                                         <textarea name="gs" rows="1" class="form-control" placeholder="Enter the GA Measurement ID"></textarea>
                                         <button type="submit" class="btn py-1 min-w-100px h-40px btn--primary ">Save</button>
-                                    </div>             
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -373,7 +373,7 @@
             </div>
             <div class="modal-body">
                 <div class="text-center max-w-320 mx-auto">
-                    <img src="{{asset('public/assets/admin/img/feature-status-on.png')}}" alt="icon" class="mb-3">
+                    <img src="{{asset('assets/admin/img/feature-status-on.png')}}" alt="icon" class="mb-3">
                     <h3 class="mb-2 px-xl-4">Turn ON Google Analytics</h3>
                     <p class="mb-0 fs-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam odio tellus, laoreet </p>
                 </div>

@@ -10,7 +10,7 @@
         <div class="page-header">
             <h1 class="page-header-title">
                 <span class="page-header-icon">
-                    <img src="{{ asset('public/assets/admin/img/edit.png') }}" class="w--26" alt="">
+                    <img src="{{ asset('assets/admin/img/edit.png') }}" class="w--26" alt="">
                 </span>
                 <span>{{ translate('messages.update_store') }}</span>
             </h1>
@@ -152,8 +152,8 @@
                                     <label class="text-center position-relative">
                                         <img class="img--110 min-height-170px min-width-170px onerror-image image--border"
                                             id="viewer"
-                                            data-onerror-image="{{ asset('public/assets/admin/img/upload-img.png') }}"
-                                            src="{{ $store->logo_full_url ?? asset('public/assets/admin/img/upload-img.png') }}"
+                                            data-onerror-image="{{ asset('assets/admin/img/upload-img.png') }}"
+                                            src="{{ $store->logo_full_url ?? asset('assets/admin/img/upload-img.png') }}"
                                             data-max-size="2mb" alt="logo image" />
                                         <div class="icon-file-group">
                                             <div class="icon-file">
@@ -177,8 +177,8 @@
                                     <label class="text-center position-relative">
                                         <img class="img--vertical min-height-170px min-width-170px onerror-image image--border"
                                             id="coverImageViewer"
-                                            data-onerror-image="{{ asset('public/assets/admin/img/upload-img.png') }}"
-                                            src="{{ $store->cover_photo_full_url ?? asset('public/assets/admin/img/upload-img.png') }}"
+                                            data-onerror-image="{{ asset('assets/admin/img/upload-img.png') }}"
+                                            src="{{ $store->cover_photo_full_url ?? asset('assets/admin/img/upload-img.png') }}"
                                             alt="Fav icon" />
                                         <div class="icon-file-group">
                                             <div class="icon-file">
@@ -204,7 +204,7 @@
                         <div class="card-header">
                             <h4 class="card-title m-0 d-flex align-items-center">
                                 <img class="mr-2 align-self-start w--20"
-                                    src="{{ asset('public/assets/admin/img/resturant.png') }}" alt="instructions">
+                                    src="{{ asset('assets/admin/img/resturant.png') }}" alt="instructions">
                                 <span>{{ translate('store_information') }}</span>
                             </h4>
                         </div>
@@ -282,7 +282,7 @@
                                             <span class="form-label-secondary" data-toggle="tooltip"
                                                 data-placement="right"
                                                 data-original-title="{{ translate('messages.select_zone_for_map') }}">
-                                                <img src="{{ asset('/public/assets/admin/img/info-circle.svg') }}"
+                                                <img src="{{ asset('/assets/admin/img/info-circle.svg') }}"
                                                     alt="{{ translate('messages.select_zone_for_map') }}">
                                             </span> <span class="text-danger">*</span>
                                         </label>
@@ -309,7 +309,7 @@
                                             <span class="form-label-secondary" data-toggle="tooltip"
                                                 data-placement="right"
                                                 data-original-title="{{ translate('messages.store_lat_lng_warning') }}">
-                                                <img src="{{ asset('/public/assets/admin/img/info-circle.svg') }}"
+                                                <img src="{{ asset('/assets/admin/img/info-circle.svg') }}"
                                                     alt="{{ translate('messages.store_lat_lng_warning') }}">
                                             </span> <span class="text-danger">*</span>
                                         </label>
@@ -323,7 +323,7 @@
                                             <span class="form-label-secondary" data-toggle="tooltip"
                                                 data-placement="right"
                                                 data-original-title="{{ translate('messages.store_lat_lng_warning') }}">
-                                                <img src="{{ asset('/public/assets/admin/img/info-circle.svg') }}"
+                                                <img src="{{ asset('/assets/admin/img/info-circle.svg') }}"
                                                     alt="{{ translate('messages.store_lat_lng_warning') }}">
                                             </span>  <span class="text-danger">*</span>
                                         </label>
@@ -414,7 +414,7 @@
                                             for="signupSrPassword">{{ translate('password') }}<span
                                                 class="form-label-secondary" data-toggle="tooltip" data-placement="right"
                                                 data-original-title="{{ translate('messages.Must_contain_at_least_one_number_and_one_uppercase_and_lowercase_letter_and_symbol,_and_at_least_8_or_more_characters') }}"><img
-                                                    src="{{ asset('/public/assets/admin/img/info-circle.svg') }}"
+                                                    src="{{ asset('/assets/admin/img/info-circle.svg') }}"
                                                     alt="{{ translate('messages.Must_contain_at_least_one_number_and_one_uppercase_and_lowercase_letter_and_symbol,_and_at_least_8_or_more_characters') }}"></span></label>
 
                                         <div class="input-group input-group-merge">
@@ -515,9 +515,9 @@
                                         </div>
                                         <div class="error-wrapper">
                                             <div id="file-assets"
-                                                data-picture-icon="{{ asset('public/assets/admin/img/picture.svg') }}"
-                                                data-document-icon="{{ asset('public/assets/admin/img/document.svg') }}"
-                                                data-blank-thumbnail="{{ asset('public/assets/admin/img/picture.svg') }}">
+                                                data-picture-icon="{{ asset('assets/admin/img/picture.svg') }}"
+                                                data-document-icon="{{ asset('assets/admin/img/document.svg') }}"
+                                                data-blank-thumbnail="{{ asset('assets/admin/img/picture.svg') }}">
                                             </div>
                                             <!-- Upload box -->
                                             <div class="d-flex justify-content-center" id="pdf-container">
@@ -526,7 +526,7 @@
                                                         class="document_input" accept=".doc, .pdf, .jpg, .png, .jpeg">
                                                     <div class="textbox">
                                                         <img width="40" height="40" class="svg"
-                                                            src="{{ asset('public/assets/admin/img/doc-uploaded.png') }}"
+                                                            src="{{ asset('assets/admin/img/doc-uploaded.png') }}"
                                                             alt="">
                                                         <p class="fs-12 mb-0">
                                                             {{ translate('messages.Select_a_file_or') }} <span
@@ -535,11 +535,11 @@
                                                     </div>
                                                 </div>
                                                 <div class="pdf-single" data-file-name="${file.name}"
-                                                    data-file-url="{{ $store->tin_certificate_image_full_url ?? asset('public/assets/admin/img/upload-cloud.png') }}">
+                                                    data-file-url="{{ $store->tin_certificate_image_full_url ?? asset('assets/admin/img/upload-cloud.png') }}">
                                                     <div class="pdf-frame">
-                                                        @php($imgPath = $store->tin_certificate_image_full_url ?? asset('public/assets/admin/img/upload-cloud.png'))
+                                                        @php($imgPath = $store->tin_certificate_image_full_url ?? asset('assets/admin/img/upload-cloud.png'))
                                                         @if (Str::endsWith($imgPath, ['.pdf', '.doc', '.docx']))
-                                                            @php($imgPath = asset('public/assets/admin/img/document.svg'))
+                                                            @php($imgPath = asset('assets/admin/img/document.svg'))
                                                         @endif
                                                         <img class="pdf-thumbnail-alt" src="{{ $imgPath }}"
                                                             alt="File Thumbnail">
@@ -547,10 +547,10 @@
                                                     <div class="overlay">
                                                         <div class="pdf-info">
                                                             @if (Str::endsWith($imgPath, ['.pdf', '.doc', '.docx']))
-                                                                <img src="{{ asset('public/assets/admin/img/document.svg') }}"
+                                                                <img src="{{ asset('assets/admin/img/document.svg') }}"
                                                                     width="34" alt="File Type Logo">
                                                             @else
-                                                                <img src="{{ asset('public/assets/admin/img/picture.svg') }}"
+                                                                <img src="{{ asset('assets/admin/img/picture.svg') }}"
                                                                     width="34" alt="File Type Logo">
                                                             @endif
                                                             <div class="file-name-wrapper">
@@ -587,11 +587,11 @@
 @endsection
 
 @push('script_2')
-    <script src="{{ asset('public/assets/admin/js/file-preview/pdf.min.js') }}"></script>
-    <script src="{{ asset('public/assets/admin/js/file-preview/pdf-worker.min.js') }}"></script>
-    <script src="{{ asset('public/assets/admin/js/file-preview/edit-multiple-document-upload.js') }}"></script>
+    <script src="{{ asset('assets/admin/js/file-preview/pdf.min.js') }}"></script>
+    <script src="{{ asset('assets/admin/js/file-preview/pdf-worker.min.js') }}"></script>
+    <script src="{{ asset('assets/admin/js/file-preview/edit-multiple-document-upload.js') }}"></script>
 
-    <script src="{{ asset('public/assets/admin/js/spartan-multi-image-picker.js') }}"></script>
+    <script src="{{ asset('assets/admin/js/spartan-multi-image-picker.js') }}"></script>
     <script  src="https://maps.googleapis.com/maps/api/js?key={{ \App\CentralLogics\Helpers::get_business_settings('map_api_key') }}&libraries=places,marker&callback=initMap&v=3.61">
     </script>
     <script>
@@ -795,9 +795,9 @@
         });
 
         $('#reset_btn').click(function() {
-            $('#viewer').attr('src', "{{ asset('public/assets/admin/img/upload.png') }}");
+            $('#viewer').attr('src', "{{ asset('assets/admin/img/upload.png') }}");
             $('#customFileEg1').val(null);
-            $('#coverImageViewer').attr('src', "{{ asset('public/assets/admin/img/upload-img.png') }}");
+            $('#coverImageViewer').attr('src', "{{ asset('assets/admin/img/upload-img.png') }}");
             $('#coverImageUpload').val(null);
             $('#choice_zones').val(null).trigger('change');
 
@@ -848,7 +848,7 @@
                         };
                         reader.readAsDataURL(file);
                     } else {
-                        imagePreview.attr('src', '{{ asset('public/assets/admin/img/file-icon.png') }}')
+                        imagePreview.attr('src', '{{ asset('assets/admin/img/file-icon.png') }}')
                             .removeClass('display-none');
                         textBox.hide();
                     }
@@ -956,7 +956,7 @@
 
                                 $(this).val('');
                                 $(imgViewerSelector)
-                                    .attr('src', '{{ asset('public/assets/admin/img/upload-img.png') }}')
+                                    .attr('src', '{{ asset('assets/admin/img/upload-img.png') }}')
                                     .hide();
                                 $(textBoxSelector).show();
                                 return;
@@ -970,7 +970,7 @@
 
                             $(this).val('');
                             $(imgViewerSelector)
-                                .attr('src', '{{ asset('public/assets/admin/img/upload-img.png') }}')
+                                .attr('src', '{{ asset('assets/admin/img/upload-img.png') }}')
                                 .hide();
                             $(textBoxSelector).show();
                             return;
@@ -984,7 +984,7 @@
                         reader.readAsDataURL(file);
                     } else {
                         $(imgViewerSelector)
-                            .attr('src', '{{ asset('public/assets/admin/img/upload-img.png') }}')
+                            .attr('src', '{{ asset('assets/admin/img/upload-img.png') }}')
                             .hide();
                         $(textBoxSelector).show();
                     }

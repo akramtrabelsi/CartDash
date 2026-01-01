@@ -13,7 +13,7 @@
     <div class="d-content-between flex-wrap mb-20">
         <h2 class="title-clr">{{ translate('messages.add_on_activation') }}</h2>
         {{-- <button class="d-flex d-align-center gap-2 rounded-20 title-clr border py-2 px-3 fz--14px btn bg-opacity-primary-10 offcanvas-trigger" data-target="#offcanvas__customBtn">
-            <i class="tio-help-outlined"></i> How It Work 
+            <i class="tio-help-outlined"></i> How It Work
         </button> --}}
      </div>
      <div class="d-flex flex-column gap-3">
@@ -35,7 +35,7 @@
                         <div class="col-xxl-4 col-md-6">
                             <div class="d-flex flex-sm-nowrap flex-wrap justify-content-end justify-content-end align-items-center gap-sm-3 gap-2">
                                 <div class="view-btn order-sm-0 order-3 fz--14px text-primary cursor-pointer text-decoration-underline font-semibold d-flex align-items-center gap-1">
-                                    {{ translate('messages.view') }} 
+                                    {{ translate('messages.view') }}
                                     <i class="tio-arrow-downward"></i>
                                 </div>
                                 <div class="mb-0">
@@ -43,8 +43,8 @@
                                             <input type="checkbox"
                                                     data-id="addon_activation_vendor_app_status"
                                                     data-type="toggle"
-                                                    data-image-on="{{ asset('/public/assets/admin/img/modal/free-delivery-on.png') }}"
-                                                    data-image-off="{{ asset('/public/assets/admin/img/modal/free-delivery-off.png') }}"
+                                                    data-image-on="{{ asset('/assets/admin/img/modal/free-delivery-on.png') }}"
+                                                    data-image-off="{{ asset('/assets/admin/img/modal/free-delivery-off.png') }}"
                                                     data-title-on="<strong>{{ translate('messages.want_to_Turn_ON_the_Deliveryman_App_addon?') }}</strong>"
                                                     data-title-off="<strong>{{ translate('messages.want_to_Turn_OFF_the_Deliveryman_App_addon?') }}</strong>"
 
@@ -64,7 +64,7 @@
                         </div>
                     </div>
                     <div class="view-details">
-                        <div class="bg--secondary rounded p-20 mb-20"> 
+                        <div class="bg--secondary rounded p-20 mb-20">
                             <div class="row g-3">
                                 <div class="col-md-6 col-lg-6">
                                     <div class="">
@@ -88,7 +88,7 @@
                                                         name="purchase_key" class="form-control" required>
                                     </div>
                                 </div>
-                            </div>                   
+                            </div>
                         </div>
                         <div class="d-flex align-items-center justify-content-end gap-2">
                             <button type="button" class="btn bg--secondary h--42px title-clr px-4">{{ translate('messages.reset') }}</button>
@@ -116,7 +116,7 @@
                         <div class="col-xxl-4 col-md-6">
                             <div class="d-flex flex-sm-nowrap flex-wrap justify-content-end justify-content-end align-items-center gap-sm-3 gap-2">
                                 <div class="view-btn order-sm-0 order-3 fz--14px text-primary cursor-pointer text-decoration-underline font-semibold d-flex align-items-center gap-1">
-                                    {{ translate('messages.view') }} 
+                                    {{ translate('messages.view') }}
                                     <i class="tio-arrow-downward"></i>
                                 </div>
                                 <div class="mb-0">
@@ -124,8 +124,8 @@
                                             <input type="checkbox"
                                                     data-id="addon_activation_delivery_man_app_status"
                                                     data-type="toggle"
-                                                    data-image-on="{{ asset('/public/assets/admin/img/modal/free-delivery-on.png') }}"
-                                                    data-image-off="{{ asset('/public/assets/admin/img/modal/free-delivery-off.png') }}"
+                                                    data-image-on="{{ asset('/assets/admin/img/modal/free-delivery-on.png') }}"
+                                                    data-image-off="{{ asset('/assets/admin/img/modal/free-delivery-off.png') }}"
                                                     data-title-on="<strong>{{ translate('messages.want_to_Turn_ON_the_Deliveryman_App_addon?') }}</strong>"
                                                     data-title-off="<strong>{{ translate('messages.want_to_Turn_OFF_the_Deliveryman_App_addon?') }}</strong>"
 
@@ -145,7 +145,7 @@
                         </div>
                     </div>
                     <div class="view-details">
-                        <div class="bg--secondary rounded p-20 mb-20"> 
+                        <div class="bg--secondary rounded p-20 mb-20">
                             <div class="row g-3">
                                 <div class="col-md-6 col-lg-6">
                                     <div class="">
@@ -169,7 +169,7 @@
                                                         name="purchase_key" class="form-control" required>
                                     </div>
                                 </div>
-                            </div>                   
+                            </div>
                         </div>
                         <div class="d-flex align-items-center justify-content-end gap-2">
                             <button type="button" class="btn bg--secondary h--42px title-clr px-4">{{ translate('messages.reset') }}</button>
@@ -197,7 +197,7 @@
                         <div class="col-xxl-4 col-md-6">
                             <div class="d-flex flex-sm-nowrap flex-wrap justify-content-end justify-content-end align-items-center gap-sm-3 gap-2">
                                 <div class="view-btn order-sm-0 order-3 fz--14px text-primary cursor-pointer text-decoration-underline font-semibold d-flex align-items-center gap-1">
-                                    {{ translate('messages.view') }} 
+                                    {{ translate('messages.view') }}
                                     <i class="tio-arrow-downward"></i>
                                 </div>
                                 <div class="mb-0">
@@ -205,8 +205,8 @@
                                             <input type="checkbox"
                                                     data-id="addon_activation_react_status"
                                                     data-type="toggle"
-                                                    data-image-on="{{ asset('/public/assets/admin/img/modal/free-delivery-on.png') }}"
-                                                    data-image-off="{{ asset('/public/assets/admin/img/modal/free-delivery-off.png') }}"
+                                                    data-image-on="{{ asset('/assets/admin/img/modal/free-delivery-on.png') }}"
+                                                    data-image-off="{{ asset('/assets/admin/img/modal/free-delivery-off.png') }}"
                                                     data-title-on="<strong>{{ translate('messages.want_to_Turn_ON_the_Deliveryman_App_addon?') }}</strong>"
                                                     data-title-off="<strong>{{ translate('messages.want_to_Turn_OFF_the_Deliveryman_App_addon?') }}</strong>"
 
@@ -226,7 +226,7 @@
                         </div>
                     </div>
                     <div class="view-details">
-                        <div class="bg--secondary rounded p-20 mb-20"> 
+                        <div class="bg--secondary rounded p-20 mb-20">
                             <div class="row g-3">
                                 <div class="col-md-6 col-lg-6">
                                     <div class="">
@@ -250,7 +250,7 @@
                                                         name="purchase_key" class="form-control" required>
                                     </div>
                                 </div>
-                            </div>                   
+                            </div>
                         </div>
                         <div class="d-flex align-items-center justify-content-end gap-2">
                             <button type="button" class="btn bg--secondary h--42px title-clr px-4">{{ translate('messages.reset') }}</button>
@@ -289,22 +289,22 @@
                                 <div class="single-item-slider2 dots-style2 owl-carousel bg--secondary p-15">
                                     <div class="item mb-10px">
                                         <div class="text-center">
-                                            <img src="{{asset('/public/assets/admin/img/map-img.png')}}" alt="">
+                                            <img src="{{asset('/assets/admin/img/map-img.png')}}" alt="">
                                         </div>
                                     </div>
                                     <div class="item mb-10px">
                                         <div class="text-center">
-                                            <img src="{{asset('/public/assets/admin/img/map-img.png')}}" alt="">
+                                            <img src="{{asset('/assets/admin/img/map-img.png')}}" alt="">
                                         </div>
                                     </div>
                                     <div class="item mb-10px">
                                         <div class="text-center">
-                                            <img src="{{asset('/public/assets/admin/img/map-img.png')}}" alt="">
+                                            <img src="{{asset('/assets/admin/img/map-img.png')}}" alt="">
                                         </div>
                                     </div>
                                     <div class="item mb-10px">
                                         <div class="text-center">
-                                            <img src="{{asset('/public/assets/admin/img/map-img.png')}}" alt="">
+                                            <img src="{{asset('/assets/admin/img/map-img.png')}}" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -339,22 +339,22 @@
                                 <div class="single-item-slider2 dots-style2 owl-carousel bg--secondary p-15">
                                     <div class="item mb-10px">
                                         <div class="text-center">
-                                            <img src="{{asset('/public/assets/admin/img/map-img.png')}}" alt="">
+                                            <img src="{{asset('/assets/admin/img/map-img.png')}}" alt="">
                                         </div>
                                     </div>
                                     <div class="item mb-10px">
                                         <div class="text-center">
-                                            <img src="{{asset('/public/assets/admin/img/map-img.png')}}" alt="">
+                                            <img src="{{asset('/assets/admin/img/map-img.png')}}" alt="">
                                         </div>
                                     </div>
                                     <div class="item mb-10px">
                                         <div class="text-center">
-                                            <img src="{{asset('/public/assets/admin/img/map-img.png')}}" alt="">
+                                            <img src="{{asset('/assets/admin/img/map-img.png')}}" alt="">
                                         </div>
                                     </div>
                                     <div class="item mb-10px">
                                         <div class="text-center">
-                                            <img src="{{asset('/public/assets/admin/img/map-img.png')}}" alt="">
+                                            <img src="{{asset('/assets/admin/img/map-img.png')}}" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -424,7 +424,7 @@
                     </div>
                 </div>
             </div>
-        </div>   
+        </div>
     </div>
 </div> --}}
 

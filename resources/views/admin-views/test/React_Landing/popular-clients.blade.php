@@ -13,7 +13,7 @@
         <div class="d-flex flex-wrap justify-content-between">
             <h1 class="page-header-title">
                 <span class="page-header-icon">
-                    <img src="{{asset('public/assets/admin/img/landing.png')}}" class="w--20" alt="">
+                    <img src="{{asset('assets/admin/img/landing.png')}}" class="w--20" alt="">
                 </span>
                 <span>
                     {{ translate('messages.react_landing_page') }}
@@ -105,7 +105,7 @@
                                 </span>
                                 <span class="form-label-secondary text-danger"
                                 data-toggle="tooltip" data-placement="right"
-                                data-original-title="{{ translate('messages.Required.')}}"> 
+                                data-original-title="{{ translate('messages.Required.')}}">
                                 </span>
                             </label>
                         <textarea id="" type="text"  maxlength="100" name="[]" class="form-control min-h-45px" value="" rows="1" placeholder="{{translate('messages.title_here...')}}"></textarea>
@@ -117,7 +117,7 @@
                                     <i class="tio-info color-A7A7A7"></i>
                                 </span><span class="form-label-secondary text-danger"
                                 data-toggle="tooltip" data-placement="right"
-                                data-original-title="{{ translate('messages.Required.')}}"> 
+                                data-original-title="{{ translate('messages.Required.')}}">
                                 </span>
                         </label>
                         <textarea id="" type="text"  maxlength="200" name="" class="form-control min-h-45px" value="" rows="1" placeholder="{{translate('messages.sub_title_here...')}}"></textarea>
@@ -134,7 +134,7 @@
                 </div>
                  <!-- Product Image 2 -->
                 <div class="d-flex flex-wrap __gap-12px __new-coba" id="coba">
-                    
+
                 </div>
             </div>
             <div class="btn--container justify-content-end mt-20">
@@ -159,12 +159,12 @@
                             <div class="card">
                                 <div class="card-header">
                                     <div class="w-100 d-flex align-items-center gap-2 flex-wrap justify-content-between">
-                                        <h3 class="mb-0">{{ translate('Client 1') }}</h3>                                
+                                        <h3 class="mb-0">{{ translate('Client 1') }}</h3>
                                     </div>
                                 </div>
                                 <div class="card-body">
                                     <div class="bg--secondary h-100 rounded p-4">
-                                        <div class="text-center py-1">                            
+                                        <div class="text-center py-1">
                                             <div class="mx-auto text-center">
                                                 <div class="mb-30">
                                                     <h5 class="mb-1">{{ translate('Upload Image') }}</h5>
@@ -175,7 +175,7 @@
                                                             accept=".webp, .jpg, .jpeg, .png, .gif" required>
                                                     <label class="upload-file__wrapper ratio-1 m-0">
                                                         <div class="upload-file-textbox text-center">
-                                                            <img width="22" class="svg" src="{{asset('public/assets/admin/img/document-upload.svg')}}" alt="img">
+                                                            <img width="22" class="svg" src="{{asset('assets/admin/img/document-upload.svg')}}" alt="img">
                                                             <h6 class="mt-1 color-656566 fw-medium fs-10 lh-base text-center">
                                                                 <span class="theme-clr">Click to upload</span>
                                                                 <br>
@@ -203,7 +203,7 @@
                                                 <span class="font-medium color-656566">{{ translate('Ratio (1:1)')}}</span>
                                             </p>
                                         </div>
-                                    </div>                            
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -211,12 +211,12 @@
                             <div class="card">
                                 <div class="card-header">
                                     <div class="w-100 d-flex align-items-center gap-2 flex-wrap justify-content-between">
-                                        <h3 class="mb-0">{{ translate('Client 2') }}</h3>                                
+                                        <h3 class="mb-0">{{ translate('Client 2') }}</h3>
                                     </div>
                                 </div>
                                 <div class="card-body">
                                     <div class="bg--secondary h-100 rounded p-4">
-                                        <div class="text-center py-1">                            
+                                        <div class="text-center py-1">
                                             <div class="mx-auto text-center">
                                                 <div class="mb-30">
                                                     <h5 class="mb-1">{{ translate('Upload Image') }}</h5>
@@ -227,7 +227,7 @@
                                                             accept=".webp, .jpg, .jpeg, .png, .gif" required>
                                                     <label class="upload-file__wrapper ratio-1 m-0">
                                                         <div class="upload-file-textbox text-center">
-                                                            <img width="22" class="svg" src="{{asset('public/assets/admin/img/document-upload.svg')}}" alt="img">
+                                                            <img width="22" class="svg" src="{{asset('assets/admin/img/document-upload.svg')}}" alt="img">
                                                             <h6 class="mt-1 color-656566 fw-medium fs-10 lh-base text-center">
                                                                 <span class="theme-clr">Click to upload</span>
                                                                 <br>
@@ -255,7 +255,7 @@
                                                 <span class="font-medium color-656566">{{ translate('Ratio (1:1)')}}</span>
                                             </p>
                                         </div>
-                                    </div>                            
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -263,12 +263,12 @@
                             <div class="card">
                                 <div class="card-header">
                                     <div class="w-100 d-flex align-items-center gap-2 flex-wrap justify-content-between">
-                                        <h3 class="mb-0">{{ translate('Client 3') }}</h3>                                
+                                        <h3 class="mb-0">{{ translate('Client 3') }}</h3>
                                     </div>
                                 </div>
                                 <div class="card-body">
                                     <div class="bg--secondary h-100 rounded p-4">
-                                        <div class="text-center py-1">                            
+                                        <div class="text-center py-1">
                                             <div class="mx-auto text-center">
                                                 <div class="mb-30">
                                                     <h5 class="mb-1">{{ translate('Upload Image') }}</h5>
@@ -279,7 +279,7 @@
                                                             accept=".webp, .jpg, .jpeg, .png, .gif" required>
                                                     <label class="upload-file__wrapper ratio-1 m-0">
                                                         <div class="upload-file-textbox text-center">
-                                                            <img width="22" class="svg" src="{{asset('public/assets/admin/img/document-upload.svg')}}" alt="img">
+                                                            <img width="22" class="svg" src="{{asset('assets/admin/img/document-upload.svg')}}" alt="img">
                                                             <h6 class="mt-1 color-656566 fw-medium fs-10 lh-base text-center">
                                                                 <span class="theme-clr">Click to upload</span>
                                                                 <br>
@@ -307,7 +307,7 @@
                                                 <span class="font-medium color-656566">{{ translate('Ratio (1:1)')}}</span>
                                             </p>
                                         </div>
-                                    </div>                            
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -315,12 +315,12 @@
                             <div class="card">
                                 <div class="card-header">
                                     <div class="w-100 d-flex align-items-center gap-2 flex-wrap justify-content-between">
-                                        <h3 class="mb-0">{{ translate('Client 4') }}</h3>                                
+                                        <h3 class="mb-0">{{ translate('Client 4') }}</h3>
                                     </div>
                                 </div>
                                 <div class="card-body">
                                     <div class="bg--secondary h-100 rounded p-4">
-                                        <div class="text-center py-1">                            
+                                        <div class="text-center py-1">
                                             <div class="mx-auto text-center">
                                                 <div class="mb-30">
                                                     <h5 class="mb-1">{{ translate('Upload Image') }}</h5>
@@ -331,7 +331,7 @@
                                                             accept=".webp, .jpg, .jpeg, .png, .gif" required>
                                                     <label class="upload-file__wrapper ratio-1 m-0">
                                                         <div class="upload-file-textbox text-center">
-                                                            <img width="22" class="svg" src="{{asset('public/assets/admin/img/document-upload.svg')}}" alt="img">
+                                                            <img width="22" class="svg" src="{{asset('assets/admin/img/document-upload.svg')}}" alt="img">
                                                             <h6 class="mt-1 color-656566 fw-medium fs-10 lh-base text-center">
                                                                 <span class="theme-clr">Click to upload</span>
                                                                 <br>
@@ -359,7 +359,7 @@
                                                 <span class="font-medium color-656566">{{ translate('Ratio (1:1)')}}</span>
                                             </p>
                                         </div>
-                                    </div>                            
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -367,12 +367,12 @@
                             <div class="card">
                                 <div class="card-header">
                                     <div class="w-100 d-flex align-items-center gap-2 flex-wrap justify-content-between">
-                                        <h3 class="mb-0">{{ translate('Client 5') }}</h3>                                
+                                        <h3 class="mb-0">{{ translate('Client 5') }}</h3>
                                     </div>
                                 </div>
                                 <div class="card-body">
                                     <div class="bg--secondary h-100 rounded p-4">
-                                        <div class="text-center py-1">                            
+                                        <div class="text-center py-1">
                                             <div class="mx-auto text-center">
                                                 <div class="mb-30">
                                                     <h5 class="mb-1">{{ translate('Upload Image') }}</h5>
@@ -383,7 +383,7 @@
                                                             accept=".webp, .jpg, .jpeg, .png, .gif" required>
                                                     <label class="upload-file__wrapper ratio-1 m-0">
                                                         <div class="upload-file-textbox text-center">
-                                                            <img width="22" class="svg" src="{{asset('public/assets/admin/img/document-upload.svg')}}" alt="img">
+                                                            <img width="22" class="svg" src="{{asset('assets/admin/img/document-upload.svg')}}" alt="img">
                                                             <h6 class="mt-1 color-656566 fw-medium fs-10 lh-base text-center">
                                                                 <span class="theme-clr">Click to upload</span>
                                                                 <br>
@@ -411,7 +411,7 @@
                                                 <span class="font-medium color-656566">{{ translate('Ratio (1:1)')}}</span>
                                             </p>
                                         </div>
-                                    </div>                            
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -419,12 +419,12 @@
                             <div class="card">
                                 <div class="card-header">
                                     <div class="w-100 d-flex align-items-center gap-2 flex-wrap justify-content-between">
-                                        <h3 class="mb-0">{{ translate('Client 6') }}</h3>                                
+                                        <h3 class="mb-0">{{ translate('Client 6') }}</h3>
                                     </div>
                                 </div>
                                 <div class="card-body">
                                     <div class="bg--secondary h-100 rounded p-4">
-                                        <div class="text-center py-1">                            
+                                        <div class="text-center py-1">
                                             <div class="mx-auto text-center">
                                                 <div class="mb-30">
                                                     <h5 class="mb-1">{{ translate('Upload Image') }}</h5>
@@ -435,7 +435,7 @@
                                                             accept=".webp, .jpg, .jpeg, .png, .gif" required>
                                                     <label class="upload-file__wrapper ratio-1 m-0">
                                                         <div class="upload-file-textbox text-center">
-                                                            <img width="22" class="svg" src="{{asset('public/assets/admin/img/document-upload.svg')}}" alt="img">
+                                                            <img width="22" class="svg" src="{{asset('assets/admin/img/document-upload.svg')}}" alt="img">
                                                             <h6 class="mt-1 color-656566 fw-medium fs-10 lh-base text-center">
                                                                 <span class="theme-clr">Click to upload</span>
                                                                 <br>
@@ -463,7 +463,7 @@
                                                 <span class="font-medium color-656566">{{ translate('Ratio (1:1)')}}</span>
                                             </p>
                                         </div>
-                                    </div>                            
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -471,12 +471,12 @@
                             <div class="card">
                                 <div class="card-header">
                                     <div class="w-100 d-flex align-items-center gap-2 flex-wrap justify-content-between">
-                                        <h3 class="mb-0">{{ translate('Client 7') }}</h3>                                
+                                        <h3 class="mb-0">{{ translate('Client 7') }}</h3>
                                     </div>
                                 </div>
                                 <div class="card-body">
                                     <div class="bg--secondary h-100 rounded p-4">
-                                        <div class="text-center py-1">                            
+                                        <div class="text-center py-1">
                                             <div class="mx-auto text-center">
                                                 <div class="mb-30">
                                                     <h5 class="mb-1">{{ translate('Upload Image') }}</h5>
@@ -487,7 +487,7 @@
                                                             accept=".webp, .jpg, .jpeg, .png, .gif" required>
                                                     <label class="upload-file__wrapper ratio-1 m-0">
                                                         <div class="upload-file-textbox text-center">
-                                                            <img width="22" class="svg" src="{{asset('public/assets/admin/img/document-upload.svg')}}" alt="img">
+                                                            <img width="22" class="svg" src="{{asset('assets/admin/img/document-upload.svg')}}" alt="img">
                                                             <h6 class="mt-1 color-656566 fw-medium fs-10 lh-base text-center">
                                                                 <span class="theme-clr">Click to upload</span>
                                                                 <br>
@@ -515,7 +515,7 @@
                                                 <span class="font-medium color-656566">{{ translate('Ratio (1:1)')}}</span>
                                             </p>
                                         </div>
-                                    </div>                            
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -523,12 +523,12 @@
                             <div class="card">
                                 <div class="card-header">
                                     <div class="w-100 d-flex align-items-center gap-2 flex-wrap justify-content-between">
-                                        <h3 class="mb-0">{{ translate('Client 8') }}</h3>                                
+                                        <h3 class="mb-0">{{ translate('Client 8') }}</h3>
                                     </div>
                                 </div>
                                 <div class="card-body">
                                     <div class="bg--secondary h-100 rounded p-4">
-                                        <div class="text-center py-1">                            
+                                        <div class="text-center py-1">
                                             <div class="mx-auto text-center">
                                                 <div class="mb-30">
                                                     <h5 class="mb-1">{{ translate('Upload Image') }}</h5>
@@ -539,7 +539,7 @@
                                                             accept=".webp, .jpg, .jpeg, .png, .gif" required>
                                                     <label class="upload-file__wrapper ratio-1 m-0">
                                                         <div class="upload-file-textbox text-center">
-                                                            <img width="22" class="svg" src="{{asset('public/assets/admin/img/document-upload.svg')}}" alt="img">
+                                                            <img width="22" class="svg" src="{{asset('assets/admin/img/document-upload.svg')}}" alt="img">
                                                             <h6 class="mt-1 color-656566 fw-medium fs-10 lh-base text-center">
                                                                 <span class="theme-clr">Click to upload</span>
                                                                 <br>
@@ -567,7 +567,7 @@
                                                 <span class="font-medium color-656566">{{ translate('Ratio (1:1)')}}</span>
                                             </p>
                                         </div>
-                                    </div>                            
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -575,12 +575,12 @@
                             <div class="card">
                                 <div class="card-header">
                                     <div class="w-100 d-flex align-items-center gap-2 flex-wrap justify-content-between">
-                                        <h3 class="mb-0">{{ translate('Client 9') }}</h3>                                
+                                        <h3 class="mb-0">{{ translate('Client 9') }}</h3>
                                     </div>
                                 </div>
                                 <div class="card-body">
                                     <div class="bg--secondary h-100 rounded p-4">
-                                        <div class="text-center py-1">                            
+                                        <div class="text-center py-1">
                                             <div class="mx-auto text-center">
                                                 <div class="mb-30">
                                                     <h5 class="mb-1">{{ translate('Upload Image') }}</h5>
@@ -591,7 +591,7 @@
                                                             accept=".webp, .jpg, .jpeg, .png, .gif" required>
                                                     <label class="upload-file__wrapper ratio-1 m-0">
                                                         <div class="upload-file-textbox text-center">
-                                                            <img width="22" class="svg" src="{{asset('public/assets/admin/img/document-upload.svg')}}" alt="img">
+                                                            <img width="22" class="svg" src="{{asset('assets/admin/img/document-upload.svg')}}" alt="img">
                                                             <h6 class="mt-1 color-656566 fw-medium fs-10 lh-base text-center">
                                                                 <span class="theme-clr">Click to upload</span>
                                                                 <br>
@@ -619,7 +619,7 @@
                                                 <span class="font-medium color-656566">{{ translate('Ratio (1:1)')}}</span>
                                             </p>
                                         </div>
-                                    </div>                            
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -627,12 +627,12 @@
                             <div class="card">
                                 <div class="card-header">
                                     <div class="w-100 d-flex align-items-center gap-2 flex-wrap justify-content-between">
-                                        <h3 class="mb-0">{{ translate('Client 10') }}</h3>                                
+                                        <h3 class="mb-0">{{ translate('Client 10') }}</h3>
                                     </div>
                                 </div>
                                 <div class="card-body">
                                     <div class="bg--secondary h-100 rounded p-4">
-                                        <div class="text-center py-1">                            
+                                        <div class="text-center py-1">
                                             <div class="mx-auto text-center">
                                                 <div class="mb-30">
                                                     <h5 class="mb-1">{{ translate('Upload Image') }}</h5>
@@ -643,7 +643,7 @@
                                                             accept=".webp, .jpg, .jpeg, .png, .gif" required>
                                                     <label class="upload-file__wrapper ratio-1 m-0">
                                                         <div class="upload-file-textbox text-center">
-                                                            <img width="22" class="svg" src="{{asset('public/assets/admin/img/document-upload.svg')}}" alt="img">
+                                                            <img width="22" class="svg" src="{{asset('assets/admin/img/document-upload.svg')}}" alt="img">
                                                             <h6 class="mt-1 color-656566 fw-medium fs-10 lh-base text-center">
                                                                 <span class="theme-clr">Click to upload</span>
                                                                 <br>
@@ -671,7 +671,7 @@
                                                 <span class="font-medium color-656566">{{ translate('Ratio (1:1)')}}</span>
                                             </p>
                                         </div>
-                                    </div>                            
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -679,12 +679,12 @@
                             <div class="card">
                                 <div class="card-header">
                                     <div class="w-100 d-flex align-items-center gap-2 flex-wrap justify-content-between">
-                                        <h3 class="mb-0">{{ translate('Client 11') }}</h3>                                
+                                        <h3 class="mb-0">{{ translate('Client 11') }}</h3>
                                     </div>
                                 </div>
                                 <div class="card-body">
                                     <div class="bg--secondary h-100 rounded p-4">
-                                        <div class="text-center py-1">                            
+                                        <div class="text-center py-1">
                                             <div class="mx-auto text-center">
                                                 <div class="mb-30">
                                                     <h5 class="mb-1">{{ translate('Upload Image') }}</h5>
@@ -695,7 +695,7 @@
                                                             accept=".webp, .jpg, .jpeg, .png, .gif" required>
                                                     <label class="upload-file__wrapper ratio-1 m-0">
                                                         <div class="upload-file-textbox text-center">
-                                                            <img width="22" class="svg" src="{{asset('public/assets/admin/img/document-upload.svg')}}" alt="img">
+                                                            <img width="22" class="svg" src="{{asset('assets/admin/img/document-upload.svg')}}" alt="img">
                                                             <h6 class="mt-1 color-656566 fw-medium fs-10 lh-base text-center">
                                                                 <span class="theme-clr">Click to upload</span>
                                                                 <br>
@@ -723,7 +723,7 @@
                                                 <span class="font-medium color-656566">{{ translate('Ratio (1:1)')}}</span>
                                             </p>
                                         </div>
-                                    </div>                            
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -731,12 +731,12 @@
                             <div class="card">
                                 <div class="card-header">
                                     <div class="w-100 d-flex align-items-center gap-2 flex-wrap justify-content-between">
-                                        <h3 class="mb-0">{{ translate('Client 12') }}</h3>                                
+                                        <h3 class="mb-0">{{ translate('Client 12') }}</h3>
                                     </div>
                                 </div>
                                 <div class="card-body">
                                     <div class="bg--secondary h-100 rounded p-4">
-                                        <div class="text-center py-1">                            
+                                        <div class="text-center py-1">
                                             <div class="mx-auto text-center">
                                                 <div class="mb-30">
                                                     <h5 class="mb-1">{{ translate('Upload Image') }}</h5>
@@ -747,7 +747,7 @@
                                                             accept=".webp, .jpg, .jpeg, .png, .gif" required>
                                                     <label class="upload-file__wrapper ratio-1 m-0">
                                                         <div class="upload-file-textbox text-center">
-                                                            <img width="22" class="svg" src="{{asset('public/assets/admin/img/document-upload.svg')}}" alt="img">
+                                                            <img width="22" class="svg" src="{{asset('assets/admin/img/document-upload.svg')}}" alt="img">
                                                             <h6 class="mt-1 color-656566 fw-medium fs-10 lh-base text-center">
                                                                 <span class="theme-clr">Click to upload</span>
                                                                 <br>
@@ -775,7 +775,7 @@
                                                 <span class="font-medium color-656566">{{ translate('Ratio (1:1)')}}</span>
                                             </p>
                                         </div>
-                                    </div>                            
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -805,7 +805,7 @@
                 <section class="common-section-view bg-white border rounded-10">
                     <div class="mb-4 text-center">
                         <h2 class="mb-lg-1 mb-1 fs-24">
-                            Our Popular <span class="text-base-clr">Clients</span> 
+                            Our Popular <span class="text-base-clr">Clients</span>
                         </h2>
                         <p class="text-title fs-14 m-0">
                             Trusted by leading brands for fast and reliable delivery servies.
@@ -815,42 +815,42 @@
                         <div class="clients-preview-slide owl-theme owl-carousel">
                             <div class="items__">
                                 <div class="p-xxl-3 p-2 d-center h-135px bg--secondary rounded">
-                                    <img wdith="110" height="100" src="{{ asset('/public/assets/admin/img/400x400/react-new-slide1.jpg') }}" alt="" class="rounded">                                                                       
+                                    <img wdith="110" height="100" src="{{ asset('/assets/admin/img/400x400/react-new-slide1.jpg') }}" alt="" class="rounded">
                                 </div>
                             </div>
                             <div class="items__">
                                 <div class="p-xxl-3 p-2 d-center h-135px bg--secondary rounded">
-                                    <img wdith="110" height="100" src="{{ asset('/public/assets/admin/img/400x400/react-new-slide2.jpg') }}" alt="" class="rounded">                                                                       
+                                    <img wdith="110" height="100" src="{{ asset('/assets/admin/img/400x400/react-new-slide2.jpg') }}" alt="" class="rounded">
                                 </div>
                             </div>
                             <div class="items__">
                                 <div class="p-xxl-3 p-2 d-center h-135px bg--secondary rounded">
-                                    <img wdith="110" height="100" src="{{ asset('/public/assets/admin/img/400x400/react-new-slide3.jpg') }}" alt="" class="rounded">                                                                       
+                                    <img wdith="110" height="100" src="{{ asset('/assets/admin/img/400x400/react-new-slide3.jpg') }}" alt="" class="rounded">
                                 </div>
                             </div>
                             <div class="items__">
                                 <div class="p-xxl-3 p-2 d-center h-135px bg--secondary rounded">
-                                    <img wdith="110" height="100" src="{{ asset('/public/assets/admin/img/400x400/react-new-slide4.jpg') }}" alt="" class="rounded">                                                                       
+                                    <img wdith="110" height="100" src="{{ asset('/assets/admin/img/400x400/react-new-slide4.jpg') }}" alt="" class="rounded">
                                 </div>
                             </div>
                             <div class="items__">
                                 <div class="p-xxl-3 p-2 d-center h-135px bg--secondary rounded">
-                                    <img wdith="110" height="100" src="{{ asset('/public/assets/admin/img/400x400/react-new-slide5.jpg') }}" alt="" class="rounded">                                                                       
+                                    <img wdith="110" height="100" src="{{ asset('/assets/admin/img/400x400/react-new-slide5.jpg') }}" alt="" class="rounded">
                                 </div>
                             </div>
                             <div class="items__">
                                 <div class="p-xxl-3 p-2 d-center h-135px bg--secondary rounded">
-                                    <img wdith="110" height="100" src="{{ asset('/public/assets/admin/img/400x400/react-new-slide6.jpg') }}" alt="" class="rounded">                                                                       
+                                    <img wdith="110" height="100" src="{{ asset('/assets/admin/img/400x400/react-new-slide6.jpg') }}" alt="" class="rounded">
                                 </div>
                             </div>
                             <div class="items__">
                                 <div class="p-xxl-3 p-2 d-center h-135px bg--secondary rounded">
-                                    <img wdith="110" height="100" src="{{ asset('/public/assets/admin/img/400x400/react-new-slide7.jpg') }}" alt="" class="rounded">                                                                       
+                                    <img wdith="110" height="100" src="{{ asset('/assets/admin/img/400x400/react-new-slide7.jpg') }}" alt="" class="rounded">
                                 </div>
                             </div>
                             <div class="items__">
                                 <div class="p-xxl-3 p-2 d-center h-135px bg--secondary rounded">
-                                    <img wdith="110" height="100" src="{{ asset('/public/assets/admin/img/400x400/react-new-slide8.jpg') }}" alt="" class="rounded">                                                                       
+                                    <img wdith="110" height="100" src="{{ asset('/assets/admin/img/400x400/react-new-slide8.jpg') }}" alt="" class="rounded">
                                 </div>
                             </div>
                         </div>
@@ -869,7 +869,7 @@
 @endsection
 
 @push('script_2')
-<script src="{{ asset('public/assets/admin/js/spartan-multi-image-picker.js') }}"></script>
+<script src="{{ asset('assets/admin/js/spartan-multi-image-picker.js') }}"></script>
 <script>
     $(function() {
         $("#coba").spartanMultiImagePicker({
@@ -878,7 +878,7 @@
         rowHeight: '176px',
         groupClassName: 'spartan_item_wrapper',
         placeholderImage: {
-            image: '{{asset('public/assets/admin/img/new-component.png')}}',
+            image: '{{asset('assets/admin/img/new-component.png')}}',
             width: '100%'
         },
         dropFileLabel: "Drop file here or click to upload"
