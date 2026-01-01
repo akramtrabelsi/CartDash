@@ -37,8 +37,7 @@
         "razorpay/razorpay": "^2.8",
         "stripe/stripe-php": "^10.10",
         "twilio/sdk": "^6.39",
-        "xendit/xendit-php": "^2.19",
-        "laravel/sail": "^1.41"
+        "xendit/xendit-php": "^2.19"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.5",
